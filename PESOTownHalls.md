@@ -1,4 +1,4 @@
-## Leadership Scientific Software Town Hall Meetings
+## PESO Town Hall Meetings
 
 ### Background
 
@@ -12,8 +12,8 @@ We hope that the discussions during the town hall events will grow the leadershi
 
 - **Who may attend:** We welcome anyone who will respectfully engage in the discussion
 - **Format:** Monthly 90-minute virtual meetings via Zoom using Zoom registration
-- **Schedule:** Third Thursday each month from 3 - 4:30 pm ET
-- **Registration:** [Zoom Signup Page](https://exascaleproject.zoomgov.com/meeting/register/vJItduGrqDMpEiSpPgjLeb3IgZsSkw-oZcQ).  Single signup for second series of meetings.
+- **Schedule:** Second Thursday each month from 3 - 4:30 pm ET
+- **Registration:** [Zoom Signup Page]().  Single signup for second series of meetings.
 
 ### Meeting Details 
 
@@ -21,18 +21,4 @@ We hope that the discussions during the town hall events will grow the leadershi
 
 | Date | Time | Topic | Details |
 |------|------|-------|---------|
-| Sep 16, 2021 | 3 - 4:30 pm ET | Overview of the ECP Software Technology Focus Area | [Meeting 1](Meetings/Meeting1.md) |
-| Oct 21, 2021| 3 - 4:30 pm ET | Progress, impediments, priorities and gaps in leadership scientific software: A panel discussion | [Meeting 2](Meetings/Meeting2.md) |
-| Nov 18, 2021| 3 - 4:30 pm ET | Expanding the Leadership Scientific Software User Communities: A panel discussion | [Meeting 3](Meetings/Meeting3.md) |
-| Dec 16, 2021| 3 - 4:30 pm ET | No meeting |  |
-| Jan 20, 2022| 3 - 4:30 pm ET | Expanding the Leadership Scientific Software Developer Communities: A panel discussion | [Meeting 4](Meetings/Meeting4.md) |
-| Feb 17, 2022| 3 - 4:30 pm ET | Meetings 1 - 4 Retrospective and Community Input | [Meeting 5](Meetings/Meeting5.md) |
-| Mar 17, 2022| 3 - 4:30 pm ET | Scientific Software Ecosystems: A panel discussion | [Meeting 6](Meetings/Meeting6.md) |
-| Apr 21, 2022| 3 - 4:30 pm ET | Expanding the Scope of What is Reusable: A panel discussion | [Meeting 7](Meetings/Meeting7.md) |
-| May 19, 2022| 3 - 4:30 pm ET | Open Q&A | [Meeting 8](Meetings/Meeting8.md) |
-| Jun 16, 2022| 3 - 4:30 pm ET | DOE ASCR Software-Stewardship Presentation and Discussion | [Meeting 9](Meetings/Meeting9.md) |
-| Jul 28, 2022| 3 - 4:30 pm ET | Expanding Laboratory, University, and Industry Collaborations: An Industry Panel Discussion | [Meeting 10](Meetings/Meeting10.md) |
-| Apr 20, 2023| 3 - 4:30 pm ET | Introducing the Post-ECP Software-Ecosystem Sustainment Seed Projects | [Meeting 11](Meetings/Meeting11.md)
-| May 18, 2023| 3 - 4:30 pm ET | Promoting inclusive and equitable research | [Meeting 12](Meetings/Meeting12.md)
-| Jun 15, 2023| 3 - 4:30 pm ET | Updates from Post-ECP Seed Project Community Outreach | [Meeting 13](Meetings/Meeting13.md)
-| Jul 20, 2023| 3 - 4:30 pm ET | Software Foundations: A Panel Discussion | [Meeting 14](Meetings/Meeting14.md)
+| Jun 20, 2023| 3 - 4:30 pm ET | Science Impact and PESO | [Meeting 1](Meetings/Meeting1.md)

@@ -12,9 +12,6 @@
 - [FAQs](FAQ.md)
 - [Summary of Past and Upcoming Meetings](PESOTownHalls.md)
 
-## Upcoming meetings
-- [Software Foundations](), July 20, 2023 
-
 ## Previous meetings
 - [Slides and video from PESO Town Hall Meetings](PESOTownHalls.md).  
  

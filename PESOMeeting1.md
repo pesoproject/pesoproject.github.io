@@ -1,6 +1,8 @@
 ## Science Impact and PESO
 
-[**To attend this meeting, sign up for a Zoom link here**](https://exascaleproject.zoomgov.com/meeting/register/vJIsc-itrjMtE9gQwa5hO3HxoqbvJw0nwyo)
+**Slides:** [PESOMeeting1.pdf](../files/PESOMeeting1.pdf)
+
+**Video:** [Zoom Recording](https://exascaleproject.zoomgov.com/rec/share/aWgl3dscmeFwisIob1a24O7BKEiA1R4sqxVYqIGUeyXiLkbfqQSg4GyMcwFlMNIr.V1O6AKhqEaFcttrG)
 
 **Time:** Tuesday, June 20, 2023, 3 - 4:30 pm ET
 
@@ -21,6 +23,3 @@ Panelists: [The PESO Leadership Team](PESOTeam.md)
 
 **Why attend:** To learn about the PESO post-ECP software-ecosystem sustainment project and current progress. To provide input, ask questions and make comments.
 
-**Slides:** [PESOMeeting1.pdf](../files/PESOMeeting1.pdf)
-
-**Video:** [Zoom Recording](https://exascaleproject.zoomgov.com/rec/share/aWgl3dscmeFwisIob1a24O7BKEiA1R4sqxVYqIGUeyXiLkbfqQSg4GyMcwFlMNIr.V1O6AKhqEaFcttrG)

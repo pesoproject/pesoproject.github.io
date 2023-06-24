@@ -30,10 +30,10 @@ We define Leadership Scientific Software to be libraries, tools and environments
 
 ## Join the Conversation
 We are providing several venues for people interested in learning about and contributing to the PESO conversation.  Please use the following links to connect with this community:
-- [PESO.io:](https://PESO.io) The PESO.io website (which presently redirects to the site [LeadershipScientificSoftware.github.io](https://leadershipscientificsoftware.github.io/)) is the main portal for the PESO community.
+- [pesoproject.org:](https://pesoproject.org) The pesoproject.org website (which presently redirects to the site [LeadershipScientificSoftware.github.io](https://leadershipscientificsoftware.github.io/)) is the main portal for the PESO community.
 - [PESO Town Hall Meetings:](PESOTownHalls.md)  The Exascale Computing Project (ECP) Software Technology (ST) leadership team is sponsoring a series of town hall meetings to discuss the development and sustainable delivery of leadership scientific software. Please visit the main [Town Hall meetings page](PESOTownHalls.md) for the schedule and Zoom registration information.
 - [PESO Slack Workspace:](https://join.slack.com/t/PESOworkspace/shared_invite/zt-v1idgwld-9tp8DvSJzj2vP3NmDbyjdw) Join the [PESO Slack Workspace](https://join.slack.com/t/PESOworkspace/shared_invite/zt-v1idgwld-9tp8DvSJzj2vP3NmDbyjdw) to participate in the PESO community discussions.
-- [PESO Announce Mail List:](https://PESO.io/mailman/listinfo/announce_PESO.io) Join the [PESO Announce mail list](https://PESO.io/mailman/listinfo/announce_PESO.io) to get updates on meetings and related events.
+- [PESO Announce Mail List:](https://pesoproject.org/mailman/listinfo/announce_pesoproject.org) Join the [PESO Announce mail list](https://pesoproject.org/mailman/listinfo/announce_pesoproject.org) to get updates on meetings and related events.
 
 ## Resources
 As part of PESO efforts, we ask the community to make contributions to this website:

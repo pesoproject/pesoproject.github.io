@@ -12,6 +12,6 @@ The US DOE sponsors significant investments in reusable scientific libraries and
 Scientific libraries and tools have been developed for decades, providing value to the scientific community, primarily via distinct and independent efforts.
 
 ### More about PESO
-- [PESO Collaboration Strategy](PESO/PESOCollaboration.md)
-- [Contribute to PESO Efforts](PESO/PESOContribute.md)
-- [PESO Leadership Team](PESO/PESOTeam.md)
+- [PESO Collaboration Strategy](PESOCollaboration.md)
+- [Contribute to PESO Efforts](PESOContribute.md)
+- [PESO Leadership Team](PESOTeam.md)

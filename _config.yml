@@ -1,3 +1,4 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 title: PESO 
 description: A Scientific Software Ecosystem Hub
+show_sidebar: true

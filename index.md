@@ -37,25 +37,21 @@ The US DOE sponsors significant investments in reusable scientific libraries and
     float: left;
   }
   </style>
-<body>
-    <div class="container">
-      <div class="image">
-        <img src="Hub-and-Spoke.png" width="300" height="300">
-      </div>
-      <div class="text">
-         <h1>
-            <ul>
-            <li> PESO (Hub) – Funded seed for cross-community capabilities, engagements, services that are common to most or all software product communities
-            <li> SWAS, S4PST – Funded seed projects for workflows, tools, programming systems
-            <li> DAV, xSDK – Existing ECP SDKs that fit the PESO approach
-            <li> Tools – Re-incorporation to fit spoke approach
-            <li> SciML – Unincorporated product community that would fit the PESO approach
-            <li> Others – Some products are missing – need to ID
-            </ul>
-        </h1>
-      </div>
-    </div>
-</body>
+<div class="container">
+   <div class="img">
+      <img src="Hub-and-Spoke.png" width="300" height="300">
+   </div>
+   <div class="text">
+         <ul>
+         <li> PESO (Hub) – Funded seed for cross-community capabilities, engagements, services that are common to most or all software product communities
+         <li> SWAS, S4PST – Funded seed projects for workflows, tools, programming systems
+         <li> DAV, xSDK – Existing ECP SDKs that fit the PESO approach
+         <li> Tools – Re-incorporation to fit spoke approach
+         <li> SciML – Unincorporated product community that would fit the PESO approach
+         <li> Others – Some products are missing – need to ID
+         </ul>
+   </div>
+</div>
 
 **PESO's Hub and Spoke Approach**
 

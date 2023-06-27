@@ -18,30 +18,10 @@ The PESO Project seeks to establish robust and sustainable scientific software c
 The US DOE sponsors significant investments in reusable scientific libraries and tools that address the critical and emerging requirements for scientific applications that support the DOE mission.  PESO seeks to optimize the impact of DOE investments by engaging with developers, collaborators, users, and stakeholders of DOE-sponsored software efforts.  PESO will engage with software teams by providing resources that help them improve the quality of their work, and improve user access and experience. We will also facilitate the engagement of software teams with their stakeholders to better assure the alignment of requirements.  Through PESO infrastructure and activity investments, we will provide a curated portfolio of high-quality scientific libraries and tools.  This portfolio will enable accelerated scientific advances for applications that can depend upon the capabilities we provide.
 
 ### The "Hub-and-Spoke" Model
-<style>
-  .container {
-    align-items: center;
-    justify-content: center;
-  }
-  
-  img {
-    max-width: 25%;
-    max-height:15%;
-    float: left;
-  }
-  
-  .text {
-    font-size: 20px;
-    padding-left: 20px;
-    padding-top: 20%;
-    float: left;
-  }
-  </style>
-<div class="container">
-   <div class="img">
-      <img src="Hub-and-Spoke.png" width="300" height="300">
-   </div>
-   <div class="text">
+<table>
+  <tr>
+    <td> img src="Hub-and-Spoke.png" width="300" height="300"/> </td>
+    <td> 
          <ul>
          <li> PESO (Hub) – Funded seed for cross-community capabilities, engagements, services that are common to most or all software product communities
          <li> SWAS, S4PST – Funded seed projects for workflows, tools, programming systems
@@ -50,8 +30,9 @@ The US DOE sponsors significant investments in reusable scientific libraries and
          <li> SciML – Unincorporated product community that would fit the PESO approach
          <li> Others – Some products are missing – need to ID
          </ul>
-   </div>
-</div>
+    </td>
+  </tr>
+</table>
 
 **PESO's Hub and Spoke Approach**
 

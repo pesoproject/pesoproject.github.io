@@ -14,12 +14,7 @@ The legacy of ECP must include efforts to increase the impact of ECP investments
 
 The PESO team will give an overview of our plan for post-ECP software-ecosystem sustainment, an update on current activities, and welcome questions and comments from the community.  While our efforts are informed by the PESO team ECP experiences, the PESO approach is notably different from ECP, emphasizing peer collaboration vs. hierarchy, leveraging institutional finance and process infrastructure vs. a parallel and separate project-specific approach, a dynamic application engagement strategy vs. a focus on pre-defined apps, broader engagement with industry and other agencies, and more.  All of our efforts will be conducted upon a foundation of a diverse and inclusive community that provides compelling and stable career paths for all community members. 
 
-All community members are welcome to join this event. Please help us create a plan that leads to post-ECP software-ecosystem sustainment success.
-
-- PESO Overview
-- 
-
-Panelists: [The PESO Leadership Team](PESOTeam.md)
+Panelists: [The PESO Leadership Team](../PESOTeam.md)
 
 **Why attend:** To learn about the PESO post-ECP software-ecosystem sustainment project and current progress. To provide input, ask questions and make comments.
 

@@ -8,7 +8,7 @@ We hope that the discussions during the town hall events will grow the leadershi
 
 - **Who may attend:** We welcome anyone who will respectfully engage in the discussion
 - **Format:** Monthly 90-minute virtual meetings via Zoom using Zoom registration
-- **Schedule:** Second Thursday each month from 3 - 4:30 pm ET
+- **Schedule:** Third Tuesday each month from 3 - 4:30 pm ET
 - **Registration:** [Zoom Signup Page]().  Single signup for second series of meetings.
 
 ### Meeting Details 

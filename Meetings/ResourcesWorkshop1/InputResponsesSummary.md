@@ -1,6 +1,6 @@
 **Summary of Questions and Responses from the** [**PESO Planning Input Google Form**](https://docs.google.com/forms/d/e/1FAIpQLSeQlOtqglU32x-yDtawSI8ldvZonudtK9BE3MIN1SoJtFPDbg/viewform)
 
-_Background: The PESO Project is collecting community input on important topics that influence plans for post-ECP software-ecosystem sustainment.  Results from the first 40 responses are summarized in the following documents, organized by question._
+_Background: The PESO Project is collecting community input on important topics that influence plans for post-ECP software-ecosystem sustainment.  Results from the first 50 responses are summarized in the following documents, organized by question._
 
 1. What activities are you undertaking to grow the contributor base for your tool, and how could a sustainability organization help?
   - [Ways Facilities can help broaden contributor base](https://docs.google.com/document/d/1PAhO5fU2N_WJWWkXJbUhQ2BNnJdjsIRj15tI1-0ANq4/edit?usp=sharing)

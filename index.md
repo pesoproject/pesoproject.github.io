@@ -25,11 +25,11 @@ image: PESO-Logo.png
 - [Contribute to PESO Efforts](PESOContribute.md)
 - [PESO Leadership Team](PESOTeam.md)
 
-## Previous meetings
+### Previous meetings
 - [Content from the PESO June 8 - 9, 2023 Argonne Workshop](Meetings/ResourcesWorkshop1/Workshop1.md)
 - [Slides and video from PESO Town Hall Meetings](PESOTownHalls.md).  
  
-## Resources
+### Resources
 As part of PESO efforts, we welcome the community to make contributions to this website:
 - **[White Papers:](WhitePapers/WhitePaperList.md)** Contributed written content to PESO conversations. We encourage you to write a 2 - 4 page white paper and submit it to the PESO website via a [pull request to the White Papers page](WhitePapers/WhitePaperList.md).
 - **[References:](References/ReferenceList.md)** Relevant published content to inform the PESO community. Please add a reference to the PESO website via a [pull request to the References page](References/ReferenceList.md).

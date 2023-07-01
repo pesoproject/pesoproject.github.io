@@ -8,7 +8,7 @@ image: PESO-Logo.png
 
 <img src="PESO-Logo.png" width="100" height="100">
 
-## PESO: Toward a Post-ECP Software-Sustainability Organization
+## PESO: Toward a Post-ECP Software-Ecosystem Sustainability Organization
 
 ### PESO Basics
 - [PESO Overview](PESOOverview.md)

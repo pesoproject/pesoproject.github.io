@@ -17,6 +17,7 @@ image: PESO-Logo.png
 
 
 ### More about PESO
+- [PESO Hub-and-Spoke Kickoff Resource Page](http://bit.ly/PESO-Hub-and-Spoke-Kickoff)
 - [Science Impact and PESO: PESO Overview, Q&A, June 20, 2023, 3 - 4:30 pm ET](Meetings/Meeting1.md)
  - [Spoke Projects Information](SpokeProjects.md)
 - [FAQs](FAQ.md)

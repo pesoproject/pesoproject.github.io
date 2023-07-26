@@ -11,6 +11,8 @@
 
 The Post-ECP Software-Ecosystem Sustainment (PESO) Project has adopted a "Hub and Spoke" approach to create a robust, coordinated, and sustainable scientific software-ecosystem. This strategy pivots on the interaction between Software Product Communities (SPCs) and Communities of Practice (COPs).
 
+[Quick link to PESO Hub-and-Spoke Kickoff Resource Page](http://bit.ly/PESO-Hub-and-Spoke-Kickoff)
+
 **Spokes**
 
    Known as SDKs or Software Product Communities (SPCs), spokes form an integral part of the PESO strategy. PESO aims to serve as a hub, forming aggregations with communities composed of compatible and interoperable products. It's anticipated that spokes will self-organize and establish their own community-specific governance that builds on, specializes, and adapts what PESO provides. 

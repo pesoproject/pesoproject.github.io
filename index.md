@@ -10,6 +10,10 @@ image: PESO-Logo.png
 
 ## PESO: Toward a Post-ECP Software-Ecosystem Sustainability Organization
 
+### PESO Project Report
+- [Navigating the Future of Scientific Software-Ecosystem Sustainment
+Toward a Post-ECP Software Sustainability Organization (PESO)V 0.1, August 31, 2023](./files/2023-08-31-PESOCommunityReport-Draft-V0.1)
+
 ### PESO Basics
 - [PESO Overview](PESOOverview.md)
 - [PESO Vision](PESOVision.md)

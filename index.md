@@ -21,4 +21,9 @@ Specifically, PESO will focus on three areas.
 
 Through these partnerships, services, and products, PESO will establish a trusted software ecosystem essential to DOE's mission.
 
+### Resources
+- [PESO Vision](PESOVision.md)
+- [PESO Organization](PESOOrganization.md)
+- [PESO Team](PESOTeam.md)
+
 The PESO team is just ramping up.  To find out more about the project, contact Mike Heroux <maherou@sandia.gov>.

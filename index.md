@@ -8,34 +8,17 @@ image: PESO-Logo.png
 
 <img src="PESO-Logo.png" width="100" height="100">
 
-## PESO: Toward a Post-ECP Software-Ecosystem Sustainability Organization
+## PESO: Partnering for Scientific Software Ecosystem Stewardship Opportunities
 
-### PESO Project Report
-- Navigating the Future of Scientific Software-Ecosystem Sustainment
-Toward a Post-ECP Software Sustainability Organization 
-  - [PESO Report Version 0.1, August 31, 2023](./files/2023-08-31-PESOCommunityReport-Draft-V0.1.pdf)
+PESO is a newly-funded five-year post-ECP software-ecosystem stewardship and advancement project.  PESO will establish and steward a sustainable scientific software ecosystem comprising libraries and tools that deliver the latest high-performance algorithms and capabilities for DOE mission-critical applications. 
 
-### PESO Basics
-- [PESO Overview](PESOOverview.md)
-- [PESO Vision](PESOVision.md)
-- [PESO Hub-and-Spoke Model](PESOHubAndSpoke.md)
+By leveraging accelerator devices, PESO will enable applications to realize 100X improvement in both high-end capabilities and energy efficiency. Working with the Scientific Software Stewardship Consortium (S3C), PESO will emphasize software product quality, the continued fostering of software product communities, and the delivery of products. 
 
+Specifically, PESO will focus on three areas.
+- Partnerships:  We will lead efforts in S3C to foster a diverse and inclusive workforce with sustainable career paths.  We will shepherd the Better Scientific Software Fellows Program and contribute to the leadership of the BSSw.io web portal.
+- Services: We will provide services including software product management, integration, and delivery. We will also address software quality assurance and security.
+- Products: We will deliver and support products via Spack and E4S. We will provide porting and testing platforms leveraged across product teams to ensure code stability and portability.  We will also facilitate the delivery of other products such as AI/ML libraries as needed by the HPC community.
 
-### More about PESO
-- [PESO Hub-and-Spoke Kickoff Resource Page](http://bit.ly/PESO-Hub-and-Spoke-Kickoff)
-- [Science Impact and PESO: PESO Overview, Q&A, June 20, 2023, 3 - 4:30 pm ET](Meetings/Meeting1.md)
- - [Spoke Projects Information](SpokeProjects.md)
-- [FAQs](FAQ.md)
-- [Summary of Past and Upcoming Meetings](PESOTownHalls.md)
-- [PESO Collaboration Strategy](PESOCollaboration.md)
-- [Contribute to PESO Efforts](PESOContribute.md)
-- [PESO Leadership Team](PESOTeam.md)
+Through these partnerships, services, and products, PESO will establish a trusted software ecosystem essential to DOE's mission.
 
-### Previous meetings
-- [Content from the PESO June 8 - 9, 2023 Argonne Workshop](Meetings/ResourcesWorkshop1/Workshop1.md)
-- [Slides and video from PESO Town Hall Meetings](PESOTownHalls.md).  
- 
-### Resources
-As part of PESO efforts, we welcome the community to make contributions to this website:
-- **[White Papers:](WhitePapers/WhitePaperList.md)** Contributed written content to PESO conversations. We encourage you to write a 2 - 4 page white paper and submit it to the PESO website via a [pull request to the White Papers page](WhitePapers/WhitePaperList.md).
-- **[References:](References/ReferenceList.md)** Relevant published content to inform the PESO community. Please add a reference to the PESO website via a [pull request to the References page](References/ReferenceList.md).
+The PESO team is just ramping up.  To find out more about the project, contact Mike Heroux <maherou@sandia.gov>.

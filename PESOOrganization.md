@@ -3,7 +3,7 @@
 <p>
     <object data="./PESO-Big-Picture.pdf" type="application/pdf" width="854" height="406">
         <!-- Alternate content for browsers that do not support viewing PDF documents directly -->
-        <p>Your browser does not support viewing PDF files directly. Please download the PDF to view it: <a href="./PESO-Big-Picture.pdf">Download PDF</a>.</p>
+        <p>PESO Project Big Picture: Your browser does not support viewing PDF files directly. Please download the PDF to view it: <a href="./PESO-Big-Picture.pdf">Download PDF</a>.</p>
     </object>
 </p>
 <br>
@@ -13,7 +13,7 @@ The PESO Project will focus on three thrust areas: **Partnerships**, **Services*
 <p>
     <object data="./PESO2-Org-Chart.pdf" type="application/pdf" width="854" height="406">
         <!-- Alternate content for browsers that do not support viewing PDF documents directly -->
-        <p>Your browser does not support viewing PDF files directly. Please download the PDF to view it: <a href="./PESO2-Org-Chart.pdf">Download PDF</a>.</p>
+        <p>PESO Org Chart: Your browser does not support viewing PDF files directly. Please download the PDF to view it: <a href="./PESO2-Org-Chart.pdf">Download PDF</a>.</p>
     </object>
 </p>
 

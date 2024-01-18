@@ -1,7 +1,7 @@
 ## PESO Organization
 
 <p>
-    <object data="./PESO-Big-Picture.pdf" type="application/pdf" width="854" height="406">
+    <object data="./PESO-Big-Picture.pdf" type="application/pdf" width="854" height="408">
         <!-- Alternate content for browsers that do not support viewing PDF documents directly -->
         <p>Your browser does not support viewing PDF files directly. Please download the PDF to view it: <a href="./PESO-Big-Picture.pdf">Download PESO Project Big Picture</a>.</p>
     </object>
@@ -11,7 +11,7 @@ The PESO Project will focus on three thrust areas: **Partnerships**, **Services*
 
 
 <p>
-    <object data="./PESO2-Org-Chart.pdf" type="application/pdf" width="854" height="406">
+    <object data="./PESO2-Org-Chart.pdf" type="application/pdf" width="854" height="503">
         <!-- Alternate content for browsers that do not support viewing PDF documents directly -->
         <p>Your browser does not support viewing PDF files directly. Please download the PDF to view it: <a href="./PESO2-Org-Chart.pdf">Download PESO Org Chart</a>.</p>
     </object>

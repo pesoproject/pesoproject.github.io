@@ -27,5 +27,6 @@ Through these partnerships, services, and products, PESO will establish a truste
 - [PESO Vision](PESOVision.md)
 - [PESO Organization](PESOOrganization.md)
 - [PESO Team](PESOTeam.md)
+- [PESO Draft Report](files/2023-08-31-PESOCommunityReport-Draft-V0.1.pdf)
 
 The PESO team is just ramping up.  To find out more about the project, contact Mike Heroux <maherou@sandia.gov>.

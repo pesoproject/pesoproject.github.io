@@ -22,4 +22,4 @@ We are pleased to announce the **2024 CASS Community Birds-of-a-Feather (BOF) Da
 
 **About CASS**: Funded by the U.S. Department of Energy’s Office of Advanced Scientific Computing Research as part of Next-Generation Scientific Software Technologies, the Consortium for the Advancement of Scientific Software (CASS) focuses on the stewardship and advancement of the ecosystem of scientific computing software. The founding members of CASS are the following software stewardship organizations: COLABS, CORSA, PESO, S4PST, STEP and SWAS, together with the FASTMath and RAPIDS SciDAC Institutes.  
 
-To suggest edits to this page, make a pull request for the [page source on GitHub](https://github.com/pesoproject/pesoproject.github.io/blob/master/bofs.md)
+To suggest edits to this page, make a pull request for the [page source on GitHub](https://github.com/pesoproject/pesoproject.github.io/blob/main/bofs.md)

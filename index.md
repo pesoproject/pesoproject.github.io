@@ -24,6 +24,7 @@ PESO is a newly-funded five-year post-ECP software-ecosystem stewardship and adv
 Through these partnerships, services, and products, PESO will establish a trusted software ecosystem essential to DOE's mission.
 
 ### Resources
+- [2024 CASS Community BOF Days](bofs.md)
 - [PESO Vision](PESOVision.md)
 - [PESO Organization](PESOOrganization.md)
 - [PESO Team](PESOTeam.md)

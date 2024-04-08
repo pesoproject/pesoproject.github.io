@@ -10,7 +10,7 @@ We are pleased to announce the **2024 CASS Community Birds-of-a-Feather (BOF) Da
 
 **Interested in hosting a BOF session?**  We welcome BOF proposals from teams within the DOE lab community who produce and support widely used libraries and tools for advanced computing and/or are fostering software communities. 
 
-**BOF proposal submission:** Complete this [Google form](https://docs.google.com/forms/d/1MnJS42q4b-d0Y2IONymO_UoO81aEazY6-muDpgVOj_k/edit)
+**BOF proposal submission:** Complete this [**Google form**](https://docs.google.com/forms/d/1MnJS42q4b-d0Y2IONymO_UoO81aEazY6-muDpgVOj_k/edit)
 
 **BOF proposal deadline: April 23, 2024**
 

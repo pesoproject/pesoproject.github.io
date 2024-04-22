@@ -12,7 +12,7 @@ We are pleased to announce the **2024 CASS Community Birds-of-a-Feather (BOF) Da
 
 **BOF proposal submission:** Complete this [**Google form**](https://forms.gle/Z6DeCvxbNFatBgK9A)
 
-**BOF proposal deadline: April 23, 2024**
+**BOF proposal deadline (extended): April 30, 2024**
 
 **Notifications:** We plan to notify BOF submitters of their proposal’s status by early May. We will select among BOF proposals to create a balanced program overall. 
 

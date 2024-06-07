@@ -1,3 +1,5 @@
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+
 ## The PESO "Hub-and-Spoke" Model
 
 <table>
@@ -35,5 +37,4 @@ As part of its hub role, PESO also plans active engagement with leaders in cross
 - **Software foundations:** Groups like NumFOCUS and the Linux Foundation provide support for the development and sustainability of open-source software, enhancing the resilience and diversity of the ecosystem.
 - **Workforce development:** Entities such as the IDEAS project, BSSw portal, and the HPC Best Practices webinars and initiatives such as US RSE, BSSw Fellows, and Sustainable Research Pathways help to build capacity and develop the skills needed for the sustainable management of scientific software.
 - **Annual Community Meeting:** Community input indicates strong support for an annual meeting of all hub and spoke teams, representative stakeholders, and other community leaders who can contribute and learn from our efforts.
-
 

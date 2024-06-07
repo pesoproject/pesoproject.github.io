@@ -1,3 +1,5 @@
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+
 ## PESO FAQs
 
 1. ***PESO has asked for white paper and references contributions. What kind of contributions are you looking for?*** <br>We want to know what you think is important for the success of a leadership scientific software stack.  We are particularly interested in contributions that address usability, sustainability, and the overall quality of leadership scientific software. Contributions that describe gaps, requirements, areas for exploration or working approaches from other software communities are particularly welcome. <br>

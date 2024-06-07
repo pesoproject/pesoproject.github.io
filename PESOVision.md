@@ -1,3 +1,5 @@
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+
 ## PESO Vision
 
 PESO will establish and steward a scientific software ecosystem with stakeholders and partners who engage with the US Department of Energy (DOE) in developing and using advanced high-performance computing.

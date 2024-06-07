@@ -1,3 +1,5 @@
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+
 ## PESO Organization
 
 <p>

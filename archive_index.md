@@ -6,7 +6,7 @@ description: PESO Project Homepage
 image: PESO-Logo.png
 ---
 
-<img src="PESO-Logo.png" width="100" height="100">
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" width="100" height="100"></a>
 
 ## PESO: Toward a Post-ECP Software-Ecosystem Sustainability Organization
 

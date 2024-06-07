@@ -1,3 +1,5 @@
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+
 ## PESO Background
 
 The PESO Project is led by the leadership team from the US Department of Energy (DOE) Exascale Computing Project (ECP) Software Technology (ST) Focus Area, and by the key technical leaders of the [Spack](https://spack.io) project, the [E4S](https://e4s.io), and the Software Development Toolkits (SDKs).

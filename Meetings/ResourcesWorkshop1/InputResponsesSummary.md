@@ -1,3 +1,5 @@
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+
 **Summary of Questions and Responses from the** [**PESO Planning Input Google Form**](https://docs.google.com/forms/d/e/1FAIpQLSeQlOtqglU32x-yDtawSI8ldvZonudtK9BE3MIN1SoJtFPDbg/viewform)
 
 _Background: The PESO Project is collecting community input on important topics that influence plans for post-ECP software-ecosystem sustainment.  Results from the first 50 responses are summarized in the following documents, organized by question._

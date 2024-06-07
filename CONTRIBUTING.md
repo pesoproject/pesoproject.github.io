@@ -1,3 +1,5 @@
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+
 ## Contribute to PESO
 
 Any member of the computational science and engineering community who has an interest in improving leadership scientific software teams is encouraged to submit content to PESO.  

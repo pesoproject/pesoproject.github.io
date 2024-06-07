@@ -1,3 +1,5 @@
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+
 ## Science Impact and PESO
 
 **Slides:** [PESOMeeting1.pdf](../files/PESOMeeting1.pdf)
@@ -17,4 +19,3 @@ The PESO team will give an overview of our plan for post-ECP software-ecosystem 
 Panelists: [The PESO Leadership Team](../PESOTeam.md)
 
 **Why attend:** To learn about the PESO post-ECP software-ecosystem sustainment project and current progress. To provide input, ask questions and make comments.
-

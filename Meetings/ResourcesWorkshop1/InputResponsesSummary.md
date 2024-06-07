@@ -1,4 +1,4 @@
-<a href="https://pesoproject.org"><img src="../../PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+<a href="https://pesoproject.org"><img src="../../PESO-Logo.png" alt="PESO Logo" width="100" height="100"></a>
 
 **Summary of Questions and Responses from the** [**PESO Planning Input Google Form**](https://docs.google.com/forms/d/e/1FAIpQLSeQlOtqglU32x-yDtawSI8ldvZonudtK9BE3MIN1SoJtFPDbg/viewform)
 

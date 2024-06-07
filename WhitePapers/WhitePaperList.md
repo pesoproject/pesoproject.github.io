@@ -1,4 +1,4 @@
-<a href="https://pesoproject.org"><img src="../PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+<a href="https://pesoproject.org"><img src="../PESO-Logo.png" alt="PESO Logo" width="100" height="100"></a>
 
 # PESO Whitepapers
 

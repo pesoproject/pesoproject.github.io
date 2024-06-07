@@ -1,4 +1,4 @@
-<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" style="width:100px;height:100px;"></a>
+<a href="https://pesoproject.org"><img src="PESO-Logo.png" alt="PESO Logo" width="100" height="100"></a>
 
 ## PESO Overview
 The PESO Project seeks to establish robust and sustainable scientific software capabilities aligned with the interests of the Department of Energy Office (DOE) of Advanced Scientific Computing Research (ASCR) via partnerships with software teams and communities within DOE, other US agencies, commercial scientific software developers, and the broader open source software community. In partnership with these teams and communities, we intend to engage with the scientific computing stakeholders, including DOE computing facilities, hardware and software vendors, other software organizations, US agencies, and industrial and international institutions.  The goal of these engagements is to advance scientific pursuits by providing advanced scientific libraries and tools to the user community in ways that optimize the cost and benefit sharing of DOE's investments in scientific libraries and tools.

@@ -1,0 +1,94 @@
+---
+layout: default
+permalink: /
+---
+
+<section class="bg-white py-8">
+    <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
+        <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
+
+            <div class="w-5/6 p-10">
+                <h3 class="text-3xl text-gray-800 font-bold leading-none">
+                    PESO Overview
+                </h3>
+                <p class="text-gray-600 mb-8">
+                    {% include overview.md %}
+                </p>
+
+                <h3 class="text-3xl text-gray-800 font-bold leading-none mt-10">
+                    Are these challeges familiar to you?
+                </h3>
+                <p class="text-gray-600 mb-8">
+                    {% include challenges.md  %}
+                </p>
+
+                <h3 class="text-3xl text-gray-800 font-bold leading-none mt-10">
+                    PESO can help!
+                </h3>
+                <p class="text-gray-600 mb-8">
+                    {% include pesocanhelp.md %}
+                </p>
+
+            </div>
+
+            <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
+                <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+                    <div class="p-8 text-2xl font-bold text-center border-b-4">
+                        Latest News
+                    </div>
+                    <ul class="w-full text-center text-sm">
+                        {% for news in site.data.news limit: 6 %}
+                        <li class="border-b py-4 p-2">
+                            <a href="{{ news.link }}" target="_blank">{{ news.title }}</a><br />
+                            <span style="font-size: 0.8em; color: #999">{{ news.date }}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-gray-100 py-8">
+    <div class="container max-w-5xl mx-auto m-8">
+        <div class="flex flex-wrap">
+            <div class="w-full sm:w-1/2 p-6">
+                <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                    PESO Thrusts
+                </h3>
+                <p class="text-gray-600 mb-0">
+                    PESO is organized around <a href="thrusts" target="_blank" class="text-pink-500 underline">six thrusts</a>, each of which is focused on a different aspect of scientific software stewardship. The thrusts are:
+                </p>
+                    <ul class="text-gray-600" style="list-style: circle; margin-left: 1em">
+                        <li>Thrust 1: Software Ecosystem Integration</li>
+                        <li>Thrust 2: User-Developer Experience</li>
+                        <li>Thrust 3: Community Engagement</li>
+                        <li>Thrust 4: Impact Frameworks</li>
+                        <li>Thrust 5: E4S</li>
+                        <li>Thrust 6: Spack</li>
+                    </ul>>
+            </div>
+            <div class="w-full sm:w-1/2 p-6">
+                <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                    Connect with PESO
+                </h3>
+                <p class="text-gray-600 mb-0">
+                    We welcome you to connect with the PESO Project through any of the following:
+                </p>
+
+                <ul class="text-gray-600" style="list-style: circle; margin-left: 1em">
+                    <li>Complete an <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvbp-0Qou_Y0yFUsgV9nyNludJfY2kJn5s0ZkoFcz13Nj0rg/viewform" target="_blank"
+                            class="text-pink-500 underline">online form</a> to tell us about yourself and your interests
+                        related to scientific software stewardship.</li>
+                    <li>Subscribe to the <a href="https://pesoproject.org" target="_blank"
+                            class="text-pink-500 underline">PESO announcement mailing list</a> to learn about events we
+                        are organizing and other news from the PESO Project.
+                    <li><a href="mailto:help@pesoproject.org" class="text-pink-500 underline">Send
+                            email</a> to start a conversation with the PESO leadership team. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

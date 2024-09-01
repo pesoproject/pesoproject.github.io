@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+
+<head lang="en">
+    {% include head.html %}
+</head>
+
+<body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+
+    {% include header_page.html %}
+
+
+    <section class="bg-white py-8 page">
+        <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
+            {{ content | markdownify }}
+        </div>
+    </section>
+
+    <footer class="bg-gray-100">
+        {% include footer.html %}
+    </footer>
+    
+</body>
+
+</html>

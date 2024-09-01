@@ -1,0 +1,75 @@
+<nav id="header" class="fixed w-full z-30 top-0 text-white">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="pl-4 flex items-center">
+            <a class="text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
+                <img src="/images/peso-logo-no-bg.png" style="max-height: 1em;" id="logo" />
+            </a>
+        </div>
+        <div class="block lg:hidden pr-4">
+            <button id="nav-toggle"
+                class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+            id="nav-content">
+            {% include menu.html %}
+            <!-- <button id="navAction"
+                class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Action
+            </button> -->
+        </div>
+    </div>
+    <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+</nav>
+
+<div class="pt-24">
+    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <!--Left Col-->
+        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+            <!-- <p class="uppercase tracking-loose w-full">
+                Stewardship and advancement of the current and future ecosystem of scientific computing software
+            </p> -->
+            <h1 class="my-4 text-5xl font-bold leading-tight">
+                PESO: Partnering for Scientific-Software Ecosystem Opportunities
+            </h1>
+            <p class="leading-normal text-2xl mb-8">
+                Stewarding and advancing the current and future ecosystem of scientific computing software
+            </p>
+            <!-- <button
+                class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Subscribe
+            </button> -->
+        </div>
+        <!--Right Col-->
+        <div class="w-full md:w-3/5 text-center">
+            <img class="w-full z-50" src="/images/peso-logo-no-bg.png" style="margin: auto; max-width: 16em;" />
+        </div>
+    </div>
+</div>
+<div class="relative -mt-12 lg:-mt-24">
+    <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(-2.000000, 42.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path
+                    d="M0,120 L150,40 L300,100 L450,30 L600,100 L750,20 L900,90 L1050,10 L1200,80 L1350,30 L1428,60 L1428,174 L0,174 Z"
+                    opacity="0.2"></path>
+                <path
+                    d="M0,140 L200,60 L400,130 L600,40 L800,110 L1000,30 L1200,90 L1400,50 L1428,80 L1428,174 L0,174 Z"
+                    opacity="0.15"></path>
+                <path
+                    d="M0,160 L250,70 L500,140 L750,50 L1000,130 L1250,60 L1428,90 L1428,174 L0,174 Z"
+                    opacity="0.1"></path>
+            </g>
+            <g transform="translate(-2.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path
+                    d="M0,130 L300,60 L600,120 L900,50 L1200,100 L1428,70 L1428,174 L0,174 Z">
+                </path>
+            </g>
+        </g>
+    </svg>
+</div>

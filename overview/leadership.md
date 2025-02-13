@@ -7,7 +7,7 @@ description: PESO Team Leadership
 
 | **Team Member** | **Affiliation** | **Role** |
 | --- | --- |
-| Michael Heroux | Sandia National Laboratories | PI |
+| Michael Heroux | ParaTools, Inc. | PI |
 | Lois Curfman McInnes | Argonne National Laboratory | PI |
 | Todd Gamblin | Lawrence Livermore National Laboratory | Spack Lead |
 | Sameer Shende | University of Oregon | E4S Lead |

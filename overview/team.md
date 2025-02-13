@@ -7,7 +7,7 @@ layout: page
 
 | **Team Member** | **Affiliation** |
 | --- | --- |
-| Michael Heroux | Sandia National Laboratories; PI |
+| Michael Heroux | ParaTools, Inc.; PI |
 | Lois Curfman McInnes | Argonne National Laboratory; PI |
 | Todd Gamblin | Lawrence Livermore National Laboratory |
 | Sameer Shende | University of Oregon |

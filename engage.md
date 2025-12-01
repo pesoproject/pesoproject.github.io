@@ -13,11 +13,6 @@ The following links describes the promise of how investing in scientific softwar
 
 |**Topic** | **Description** | **Resources** |
 |-----------|----------------|--------------|
-|**Powers Of 10** | The potential improvements by engaging in PESO efforts | [Powers Of 10 Overview](/engage/powersof10.html) |
 |**Spack** | Spack: What and Why | [Spack](/engage/spack) |
 |**E4S** | E4S: What and Why | [E4S](/engage/e4s) |
 |**HPSF** | HPSF: What and Why | [HPSF](/engage/hpsf) |
-
-|**Under construction** | **Under construction** | **Under construction** |
-|**E4S Lattice** | The value of the E4S product x configuration x platform lattice | [E4S Lattice](/engage/lattice) |
-|**SDKs** | Software Development Kits: What and Why | [SDKs](/engage/community) |

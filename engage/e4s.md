@@ -4,7 +4,7 @@ title: E4S - What and Why
 description: E4S - What and Why
 ---
 
-E4S provides 140 HPC-AI libraries and tools, easing deployment, management, and reproducibility of complex scientific workflows.
+[E4S](https://e4s.io) provides 140+ HPC-AI libraries and tools, easing deployment, management, and reproducibility of complex scientific workflows.
 
 - **Comprehensive Software Portfolio:** Curated collection of HPC and AI libraries & tools
 - **Cross-Platform Compatibility:** All major & emerging HPC platforms, desktops to supercomputers

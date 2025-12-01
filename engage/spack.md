@@ -4,7 +4,7 @@ title: Spack - What and Why
 description: Spack - What and Why
 ---
 
-Spack supports teams managing a diverse, evolving set of libraries and tools across various HPC systems, ensuring consistent, reliable, and reproducible software environments.
+[Spack](https://spack.io) supports teams managing a diverse, evolving set of libraries and tools across various HPC systems, ensuring consistent, reliable, and reproducible software environments.
 
 - **Flexible Package Management:** Install multiple versions & configs side by side without conflicts
 - **Cross-Platform Support :** Wide range of HPC architectures: laptops, clusters, supercomputers

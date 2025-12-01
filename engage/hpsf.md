@@ -4,7 +4,7 @@ title: HPSF - What and Why
 description: HPSF - What and Why
 ---
 
-The High Performance Software Foundation (HPSF) is an open-source, vendor-neutral hub established to support high-performance software projects. It aims to advance a portable software stack for High-Performance Computing (HPC) by fostering increased adoption, lowering barriers to contribution, and providing resources to mature these projects. The initiative is designed to fill the growing needs of AI, accelerated computing, and cloud HPC by ensuring that HPC software remains fast, portable, and ready for production across diverse environments.  Some key attributes of HPSF are:
+[The High Performance Software Foundation (HPSF)](https://hpsf.io) is an open-source, vendor-neutral hub established to support high-performance software projects. It aims to advance a portable software stack for High-Performance Computing (HPC) by fostering increased adoption, lowering barriers to contribution, and providing resources to mature these projects. The initiative is designed to fill the growing needs of AI, accelerated computing, and cloud HPC by ensuring that HPC software remains fast, portable, and ready for production across diverse environments.  Some key attributes of HPSF are:
 
 - **Neutral Governance:** HPSF provides a transparent, neutral governance model that allows stakeholders from government, industry, and academia to collaboratively steward the high-performance software ecosystem.
 

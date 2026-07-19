@@ -12,7 +12,7 @@
 
 - presenter: "Caetano Melone, LLNL"
   title: "What's New in Spack 1.2"
-  poster_pdf: "files/cs-pi-2026/2026-CS-PI-DAV-Tools.pdf"
+  poster_pdf: "files/cs-pi-2026/2026-CS-PI-Spack.pdf"
   abstract: |
     Modern scientific software stacks rely on thousands of packages, from low-level C, C++, and Fortran libraries to higher-level Python and R tools. Scientists deploy these across environments from laptops to supercomputers, tailoring workflows to specific tasks. Development often requires frequent rebuilds, debugging, and small-scale testing for rapid iteration. Preparing applications for large-scale HPC production involves performance-critical libraries (e.g., MPI, BLAS, LAPACK) and machine-specific optimizations. Configuring software, resolving dependencies, and ensuring compatibility can hinder both development and deployment.
 
@@ -41,3 +41,12 @@
     A primary focus of both teams is software sustainability through Continuous Integration (CI) and Software Quality Assurance (SQA). We are deploying automated CI workflows at three levels: repository workflows, Spack-based CI on the UO Frank cluster, and facility CI on Frontier, Aurora, and Perlmutter. These pipelines automate building, testing, and validation, enabling early detection of issues and ensuring portability across evolving HPC architectures. Our SQA efforts are guided by the OpenSSF Best Practices Badge and Scorecard frameworks, which provide recognized measures for security, dependency management, automated testing, code review, and maintainability. We also modernize documentation and maintain Spack package recipes to improve usability and long-term sustainability.
 
     Working closely with RAPIDS, STEP, E4S, and DOE facility partners, we are helping deliver a robust, interoperable software ecosystem ready for exascale computing.
+    DOE-led HPC software has enabled scientific discovery across many fields. As AI accelerates science, robust reusable scientific software becomes even more important—both for modeling and simulation (modsim) and for AI-based models.
+
+- presenter: "David Bernholdt, ORNL"
+  title: "The Consortium for the Advancement of Scientific Software (CASS): Software Stewardship for DOE/ASCR"
+  poster_pdf: "files/cs-pi-2026/2026-CS-PI-CASS-Overview.pdf"
+  abstract: |
+    The Consortium for the Advancement of Scientific Software (CASS) is a federation of seven software stewardship organizations funded by ASCR. The CASS portfolio includes software that underpins modern HPC modsim and connects them with AI-enabled workflows. These include mathematical libraries; tools for data analysis and visualization; software development and performance tools; and tools supporting both AI-methods research and research using AI methods. Together, this curated software ecosystem supports a broad range of computational science applications.
+
+    CASS helps its members coordinate across the ecosystem, increase the visibility of their work, and strengthen the collective value of DOE-supported scientific software. Activities include inward-facing efforts that enhance stewardship of specific software products; outward-facing efforts that help products reach and engage users; stakeholder engagement with computing facilities and vendors; and cross-cutting activities such as community resources and support for DOE’s HPC+AI software workforce. Through this coordinated stewardship model, CASS advances the software infrastructure, community practices, and workforce capacity needed for trustworthy scientific computing in an AI-enabled future.

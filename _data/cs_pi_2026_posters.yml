@@ -1,18 +1,18 @@
 - presenter: "Lois Curfman McInnes, Michael Heroux and the PESO Team"
   title: "PESO: Partnering for Scientific-Software Ecosystem Opportunities"
-  poster_pdf: "#"
+  poster_pdf: "files/cs-pi-2026/2026-CS-PI-PESO-Overview.pdf"
   abstract: |
     This poster highlights work in the PESO project (https://pesoproject.org), which supports software-ecosystem stewardship and advancement, collaborating through the Consortium for the Advancement of Scientific Software (CASS, https://cass.community). PESO's vision is that investments by the DOE in software have maximum impact through a sustainable scientific software ecosystem consisting of high-quality libraries and tools that deliver the latest high-performance algorithms and capabilities to serve application needs at DOE and beyond. Key PESO goals are (1) enabling applications to leverage robust, curated scientific libraries and tools and (2) emphasizing software product quality, the fostering of software product communities, and the delivery of products, while advancing the workforce. PESO delivers and supports software products via Spack (https://spack.io) - a flexible package manager supporting multiple versions, configurations, platforms, and compilers - and E4S (https://e4s.io) - an HPC-AI software ecosystem for science, including a broad collection of HPC and AI packages needed for next-generation modeling/simulation and AI. PESO also provides porting and testing platforms leveraged across product teams to ensure code stability and portability. PESO collaborates with CASS to transform independently developed products into a portfolio whose total is much more than the sum of its parts—establishing a trusted software ecosystem essential to DOE's mission.
 
 - presenter: "Johanna Cohoon, LBNL"
   title: "Improving user and developer experiences in HPC by applying user experience insights"
-  poster_pdf: "#"
+  poster_pdf: "files/cs-pi-2026/2026-CS-PI-UDX.pdf"
   abstract: |
     PESO coordinates with the Consortium for the Advancement of Scientific Software (CASS) to deliver User/Developer Experience (UDX) insights to scientific and HPC communities. User experience (UX) issues can hinder adoption and use of software, and little attention is usually paid to developers' experiences when building and using software themselves. PESO's UDX work focuses on enhancing the usability, accessibility, and productivity of tools, ensuring they provide value to developers and end users. PESO UDX applies UX methods, builds reusable resources and shared knowledge with the community, and collaborates with software teams. This work's impact is multifaceted. For example, we have found opportunities to improve stewardship of E4S by conducting interviews to understand how stakeholders approach stewardship and usability work themselves. We have a webinar series and discussion hour, sharing knowledge within the HPC community, broadening awareness of UDX efforts and approaches. We will also be providing direct support for improving documentation, having coordinated a partnership between CASS and The Good Docs Project. Soon, technical writers will be paired with software teams to audit their documentation and recommend improvements. We invite the ASCR community to learn about UDX by participating in our effort to tailor standard design guidelines so they have more applicability to the HPC community, creating a UDX resource that can be easily leveraged by developers.
 
 - presenter: "Caetano Melone, LLNL"
   title: "What's New in Spack 1.2"
-  poster_pdf: "#"
+  poster_pdf: "files/cs-pi-2026/2026-CS-PI-DAV-Tools.pdf"
   abstract: |
     Modern scientific software stacks rely on thousands of packages, from low-level C, C++, and Fortran libraries to higher-level Python and R tools. Scientists deploy these across environments from laptops to supercomputers, tailoring workflows to specific tasks. Development often requires frequent rebuilds, debugging, and small-scale testing for rapid iteration. Preparing applications for large-scale HPC production involves performance-critical libraries (e.g., MPI, BLAS, LAPACK) and machine-specific optimizations. Configuring software, resolving dependencies, and ensuring compatibility can hinder both development and deployment.
 
@@ -22,7 +22,7 @@
 
 - presenter: "Sameer Shende, U. Oregon"
   title: "E4S: An HPC-AI Software Ecosystem for Science"
-  poster_pdf: "#"
+  poster_pdf: "files/cs-pi-2026/2026-CS-PI-E4S.pdf"
   abstract: |
     E4S (Ecosystem for Science) is a Spack-based, curated HPC-AI software ecosystem that provides open-source software for developing, deploying, and running scientific applications on supercomputers, cloud platforms, and containerized environments. Designed to accelerate scientific discovery, E4S reduces the complexity of software installation and configuration, allowing researchers to focus on science rather than infrastructure.
 
@@ -34,7 +34,7 @@
 
 - presenter: "Vicente Adolfo Bolea Sanchez, Kitware Inc"
   title: "Advancing Software Practices and Impact: Sustainable DAV and TOOLS Integrations for DOE HPC software"
-  poster_pdf: "#"
+  poster_pdf: "files/cs-pi-2026/2026-CS-PI-DAV-Tools.pdf"
   abstract: |
     As part of the PESO software quality initiative, the DAV and TOOLS Integration teams provide a foundation for DOE's open-source HPC software ecosystem. The DAV Integration team curates data analysis and visualization technologies, including ParaView, Catalyst, ADIOS2, HDF5, VisIt, Ascent, Viskores, DIY, PnetCDF, and ZFP. The TOOLS Integration team supports performance analysis and instrumentation software, including HPCToolkit, PAPI, TAU, ERT, Darshan, and Dyninst.
 

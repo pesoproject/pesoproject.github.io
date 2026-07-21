@@ -39,7 +39,7 @@
     E4S provides multiple deployment options, including bare-metal installations, cloud images, container distributions, and binary caches. Automated validation pipelines running on the Frank@UO GPU testbed verify interoperability and portability across platforms, making E4S a robust foundation for reproducible, high-performance scientific computing and AI-enabled research.
 
 - presenter: "Vicente Adolfo Bolea Sanchez, Kitware Inc"
-  title: "Advancing Software Practices and Impact: Sustainable DAV and TOOLS Integrations for DOE HPC software"
+  title: " Advancing Software Practices and Impact: Sustainable DAV and TOOLS Integrations for DOE HPC Software"
   poster_pdf: "files/cs-pi-2026/2026-CS-PI-DAV-Tools.pdf"
   abstract: |
     As part of the PESO software quality initiative, the DAV and TOOLS Integration teams provide a foundation for DOE's open-source HPC software ecosystem. The DAV Integration team curates data analysis and visualization technologies, including ParaView, Catalyst, ADIOS2, HDF5, VisIt, Ascent, Viskores, DIY, PnetCDF, and ZFP. The TOOLS Integration team supports performance analysis and instrumentation software, including HPCToolkit, PAPI, TAU, ERT, Darshan, and Dyninst.

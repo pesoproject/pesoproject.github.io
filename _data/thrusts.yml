@@ -1,0 +1,49 @@
+- code: SW-INT
+  title: Software Ecosystem Integration
+  summary: Bringing independently developed tools together into one coherent, tested portfolio.
+  description: >
+    Focuses on integrating diverse software components into a cohesive ecosystem that supports
+    advanced scientific computing, ensuring compatibility and optimized performance across
+    various platforms.
+
+- code: UDX
+  title: User-Developer Experience
+  summary: Improving how people install, adopt, and build on scientific software.
+  description: >
+    Aims to enhance the interaction between users and developers, improving the usability and
+    efficiency of software tools while fostering a collaborative environment for ongoing
+    development.
+
+- code: COMM
+  title: Community Engagement
+  summary: Growing an inclusive workforce with sustainable career paths in scientific software.
+  description: >
+    Strengthens the involvement of the scientific community by fostering collaborations,
+    disseminating best practices, and supporting open-source contributions to ensure the
+    sustainability and evolution of the software ecosystem.
+
+- code: IMPACT
+  title: Impact Frameworks
+  summary: Measuring and communicating the value DOE's software investments actually deliver.
+  description: >
+    Develops methodologies and tools to measure and maximize the impact of software on
+    scientific research, ensuring that contributions lead to significant advancements and
+    practical applications.
+
+- code: E4S
+  title: Extreme-scale Scientific Software Stack
+  summary: A curated, tested software stack ready to run on DOE systems.
+  description: >
+    The Extreme-scale Scientific Software Stack (E4S) provides a curated collection of HPC
+    software, ensuring easy access and deployment across different computing environments,
+    with a focus on scalability and reproducibility.
+  link: /engage/e4s
+
+- code: SPACK
+  title: Spack
+  summary: The package manager that builds and delivers the whole ecosystem.
+  description: >
+    A package manager designed to support the building and deployment of scientific software
+    across diverse platforms, Spack is critical for managing complex dependencies and ensuring
+    the portability and consistency of software installations across HPC environments.
+  link: /engage/spack

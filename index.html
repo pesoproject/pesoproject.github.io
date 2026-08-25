@@ -19,7 +19,7 @@ permalink: /
         <div class="section-tag">The problem space</div>
         <h2>Familiar failure modes</h2>
       </div>
-      <p class="section-desc">Every team building on scientific software hits the same wall eventually. <a href="/about" style="color:var(--signal-dark); text-decoration:underline;">Read the full story →</a></p>
+      <p class="section-desc">Every team building on scientific software hits the same wall eventually. <a href="/about#the-problem-space" style="color:var(--signal-dark); text-decoration:underline;">Read the full story →</a></p>
     </div>
     <div class="compare">
       <div class="compare-col friction">
@@ -38,43 +38,6 @@ permalink: /
           <li>Shared investment across DOE, vendors, and academia</li>
         </ul>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="bordered" id="thrusts">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <div class="section-tag">Program structure</div>
-        <h2>Six thrusts, one ecosystem</h2>
-      </div>
-      <p class="section-desc">Parallel work areas, each shipping into the same shared stack.</p>
-    </div>
-    <div class="thrust-mini-grid">
-      {% for t in site.data.thrusts %}
-      <a class="thrust-mini" href="{{ t.link | default: '/thrusts' }}">
-        <span class="code">{{ t.code }}</span>
-        <span class="name">{{ t.title }}</span>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <div class="section-tag">Updates</div>
-        <h2>Latest news</h2>
-      </div>
-      <p class="section-desc"><a href="/news" style="color:var(--signal-dark); text-decoration:underline;">See all news →</a></p>
-    </div>
-    <div class="log">
-      {% for news in site.data.news limit: 3 %}
-      <div class="log-row"><span class="log-date mono">{{ news.date }}</span><a href="{{ news.link }}">{{ news.title }}</a></div>
-      {% endfor %}
     </div>
   </div>
 </section>

@@ -157,13 +157,6 @@ a.thrust:hover{box-shadow:0 4px 18px rgba(14,35,64,0.08);}
 .thrust h3{font-size:16.5px; font-weight:700; color:var(--ink); margin-bottom:8px;}
 .thrust p{font-size:14px; color:var(--muted); line-height:1.55;}
 
-/* ---------- THRUST PREVIEW (compact — homepage teaser) ---------- */
-.thrust-mini-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:14px; overflow:hidden;}
-.thrust-mini{background:#fff; padding:20px 22px; display:block; text-decoration:none; color:inherit; transition:background .15s;}
-.thrust-mini:hover{background:var(--tint);}
-.thrust-mini .code{font-family:'Space Grotesk',sans-serif; font-size:12px; font-weight:700; color:var(--signal-dark); letter-spacing:0.04em; display:block; margin-bottom:6px;}
-.thrust-mini .name{font-size:14.5px; font-weight:600; color:var(--ink);}
-
 /* ---------- NEWS ---------- */
 .log{border-top:1px solid var(--line);}
 .log-row{display:grid; grid-template-columns:150px 1fr; gap:20px; padding:18px 0; border-bottom:1px solid var(--line); align-items:baseline;}
@@ -223,7 +216,6 @@ footer.site-footer img{height:26px; filter:brightness(0) invert(1) opacity(0.7);
 @media (max-width:860px){
   .compare{grid-template-columns:1fr;}
   .thrust-grid{grid-template-columns:1fr 1fr;}
-  .thrust-mini-grid{grid-template-columns:1fr;}
   .stats-grid{grid-template-columns:1fr 1fr; row-gap:32px;}
   .stat:nth-child(3){border-left:none;}
   .connect-grid{grid-template-columns:1fr;}

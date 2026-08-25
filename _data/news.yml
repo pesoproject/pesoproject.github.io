@@ -1,60 +1,74 @@
 - title: DOE Computer Science PI Meeting 2026
   link: /cs-pi-2026
   date: July 21-22, 2026
+  category: event
 
 - title: 2026 CASS Community BOF Days
   link: /files/2026CASSCommunityBOFDays.pdf
   date: February 10-12, 2026
+  category: event
 
 - title: PESO 2025 Annual Report
   link: /files/2025PESOProjectReport.pdf
   date: January 13, 2026
+  category: document
 
-- title: New E4S Website 
+- title: New E4S Website
   link: https://e4s.io/new-features
   date: December 10, 2025
+  category: document
 
 - title: PESO at SC25
   link: https://cass.community/news/2025-11-16-sc25.html
   date: November 16-20, 2025
+  category: event
 
 - title: E4S Version 25.11 Release
   link: https://e4s.io/news/NEWS_RELEASE_E4S_25.11.pdf
   date: November 17, 2025
+  category: document
 
 - title: E4S Version 25.06 Release
   link: https://e4s.io/news/NEWS_RELEASE_E4S_25.06.pdf
   date: June 6, 2025
+  category: document
 
 - title: PESO 2024 Annual Report
   link: /files/2024PESOProjectReport.pdf
   date: March 21, 2025
+  category: document
 
 - title: PESO/CASS Talks from SIAM CSE25 in Fort Worth, TX
   link: /cse25
   date: March 3 - 7, 2025
+  category: event
 
 - title: E4S Version 24.11 Release
   link: https://e4s.io
   date: November 15, 2024
+  category: document
 
 - title: Google's NotebookLM Explains PESO
   link: /notebooklm
   date: November 18, 2024
+  category: document
 
 - title: PESO's View on a Cohesive AI/ModSim Software Ecosystem
   link: https://arxiv.org/abs/2411.09507
   date: November 19, 2024
+  category: document
 
 - title: PESO at SC24 in Atlanta, GA
   link: /sc24
   date: November 18 - 22, 2024
+  category: event
 
 - title: BSSw Fellows Announced at USRSE24
   link: https://us-rse.org/usrse24/
   date: October 15, 2024
+  category: event
 
 - title: PESO at the Energy Earthshots Meeting
   link: https://www.energy.gov/energy-earthshots-initiative
   date: September 4 - 5, 2024
-  
+  category: event

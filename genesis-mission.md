@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Shared software foundations for mission-scale science.
-description: Each collaboration starts with a real team workflow and complements — rather than replaces — the work of product teams, facilities, and domain scientists.
-section_tag: For DOE Genesis Mission Teams
+title: Make the software between the breakthroughs work.
+description: Genesis Mission teams are connecting AI, advanced computing, experiments, and data at unprecedented scale — PESO helps turn that underlying software into a coherent, reliable, sustainable ecosystem, so teams spend less time assembling infrastructure and more time accelerating discovery.
+section_tag: DOE Genesis Mission Teams
 permalink: /genesis-mission
 ---
 

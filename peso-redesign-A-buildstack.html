@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PESO — Build Stack direction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B1220;
+    --panel:#101B2D;
+    --paper:#EDEFF2;
+    --signal:#5EEAD4;
+    --ember:#F0A050;
+    --line:#22314A;
+    --muted:#8FA0B8;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--ink);
+    color:var(--paper);
+    font-family:'Inter',sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  a{color:inherit;}
+  .wrap{max-width:1180px; margin:0 auto; padding:0 32px;}
+
+  /* NAV */
+  nav{
+    position:sticky; top:0; z-index:20;
+    background:rgba(11,18,32,0.88);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  nav .wrap{display:flex; align-items:center; justify-content:space-between; height:68px;}
+  .brand{display:flex; align-items:center; gap:10px; font-weight:600; letter-spacing:0.02em;}
+  .brand img{height:26px; width:auto; filter:brightness(0) invert(1) opacity(0.92);}
+  .brand small{font-family:'IBM Plex Mono',monospace; color:var(--muted); font-size:11px; letter-spacing:0.08em;}
+  .navlinks{display:flex; gap:28px; font-size:14px; color:var(--muted);}
+  .navlinks a{text-decoration:none; transition:color .15s;}
+  .navlinks a:hover{color:var(--signal);}
+  .nav-cta{
+    font-family:'IBM Plex Mono',monospace; font-size:12.5px;
+    border:1px solid var(--signal); color:var(--signal);
+    padding:8px 14px; border-radius:3px; text-decoration:none;
+  }
+
+  /* HERO */
+  header.hero{padding:96px 0 72px; border-bottom:1px solid var(--line); position:relative; overflow:hidden;}
+  .kicker{
+    font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:0.14em;
+    color:var(--signal); text-transform:uppercase; margin-bottom:22px; display:flex; align-items:center; gap:10px;
+  }
+  .kicker::before{content:''; width:8px; height:8px; background:var(--signal); border-radius:50%; box-shadow:0 0 10px var(--signal); display:inline-block;}
+  h1.display{
+    font-family:'IBM Plex Mono',monospace; font-weight:600;
+    font-size:clamp(30px, 4.4vw, 54px); line-height:1.12; letter-spacing:-0.01em;
+    max-width:920px; color:#fff;
+  }
+  h1.display .cursor{display:inline-block; width:0.5em; height:0.8em; background:var(--ember); margin-left:4px; animation:blink 1.1s steps(1) infinite; vertical-align:-0.08em;}
+  @keyframes blink{50%{opacity:0;}}
+  .hero p.lede{
+    max-width:640px; margin-top:26px; font-size:17px; color:var(--muted);
+  }
+  .hero-ctas{display:flex; gap:14px; margin-top:36px; flex-wrap:wrap;}
+  .btn-primary{
+    background:var(--signal); color:var(--ink); font-weight:600; font-size:14.5px;
+    padding:13px 22px; border-radius:3px; text-decoration:none; font-family:'IBM Plex Mono',monospace;
+  }
+  .btn-ghost{
+    border:1px solid var(--line); color:var(--paper); font-size:14.5px;
+    padding:13px 22px; border-radius:3px; text-decoration:none; font-family:'IBM Plex Mono',monospace;
+  }
+
+  /* STACK DIAGRAM (signature element) */
+  .stack{margin-top:64px; border:1px solid var(--line); border-radius:6px; overflow:hidden;}
+  .stack-row{
+    display:grid; grid-template-columns:200px 1fr; border-top:1px solid var(--line);
+  }
+  .stack-row:first-child{border-top:none;}
+  .stack-label{
+    font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--muted);
+    padding:16px 20px; border-right:1px solid var(--line); display:flex; align-items:center;
+  }
+  .stack-content{padding:14px 20px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; background:var(--panel);}
+  .chip{
+    font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--paper);
+    border:1px solid var(--line); background:rgba(94,234,212,0.06);
+    padding:6px 11px; border-radius:3px; white-space:nowrap;
+  }
+  .chip.hi{border-color:var(--signal); color:var(--signal);}
+  .chip.em{border-color:var(--ember); color:var(--ember);}
+
+  /* SECTION HEADERS */
+  section{padding:76px 0; border-bottom:1px solid var(--line);}
+  .section-head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:44px; gap:24px; flex-wrap:wrap;}
+  .section-tag{font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:0.12em; color:var(--signal); text-transform:uppercase;}
+  h2{font-family:'IBM Plex Mono',monospace; font-size:clamp(22px,2.6vw,30px); font-weight:600; color:#fff; margin-top:8px;}
+  .section-desc{max-width:460px; color:var(--muted); font-size:14.5px;}
+
+  /* DIAGNOSE / RESOLVE */
+  .terminal-cols{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line); border-radius:6px; overflow:hidden;}
+  .term{background:var(--panel); padding:28px;}
+  .term-head{font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--ember); margin-bottom:18px; display:flex; gap:8px; align-items:center;}
+  .term-head.resolve{color:var(--signal);}
+  .term ul{list-style:none;}
+  .term li{
+    font-size:14px; color:var(--paper); padding:10px 0; border-top:1px solid var(--line);
+    display:flex; gap:10px;
+  }
+  .term li:first-child{border-top:none;}
+  .term li::before{font-family:'IBM Plex Mono',monospace; color:var(--muted); flex-shrink:0;}
+  .term.diagnose li::before{content:'✗';}
+  .term.resolve li::before{content:'✓'; color:var(--signal);}
+
+  /* THRUSTS */
+  .thrust-pipeline{display:flex; flex-direction:column; gap:1px; background:var(--line); border:1px solid var(--line); border-radius:6px; overflow:hidden;}
+  .thrust{background:var(--panel); padding:22px 24px; display:grid; grid-template-columns:120px 1fr; gap:20px; align-items:center;}
+  .thrust-code{font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--signal); border:1px solid var(--signal); border-radius:3px; padding:6px 0; text-align:center;}
+  .thrust-body h3{font-size:16px; font-weight:600; color:#fff; margin-bottom:4px;}
+  .thrust-body p{font-size:13.5px; color:var(--muted);}
+
+  /* NEWS LOG */
+  .log{border-top:1px solid var(--line);}
+  .log-row{
+    display:grid; grid-template-columns:150px 1fr; gap:20px; padding:16px 0;
+    border-bottom:1px solid var(--line); font-size:14.5px; align-items:baseline;
+  }
+  .log-date{font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--muted);}
+  .log-row a{text-decoration:none; color:var(--paper); transition:color .15s;}
+  .log-row a:hover{color:var(--signal);}
+
+  /* CONNECT */
+  .connect-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:6px; overflow:hidden;}
+  .connect-card{background:var(--panel); padding:26px; text-decoration:none; color:var(--paper); transition:background .15s;}
+  .connect-card:hover{background:#16243B;}
+  .connect-card .mono{font-size:11.5px; color:var(--ember); display:block; margin-bottom:10px; letter-spacing:0.08em;}
+  .connect-card h4{font-size:15.5px; font-weight:600; margin-bottom:6px; color:#fff;}
+  .connect-card p{font-size:13px; color:var(--muted);}
+
+  footer{padding:40px 0; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;}
+  footer .mono{font-size:12px; color:var(--muted);}
+  footer img{height:30px; filter:brightness(0) invert(1) opacity(0.5);}
+
+  @media (max-width:720px){
+    .stack-row{grid-template-columns:1fr;}
+    .stack-label{border-right:none; border-bottom:1px solid var(--line);}
+    .terminal-cols{grid-template-columns:1fr;}
+    .thrust{grid-template-columns:1fr;}
+    .connect-grid{grid-template-columns:1fr;}
+    .navlinks{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">
+      <img src="https://pesoproject.org/images/peso-logo-no-bg.png" alt="PESO">
+      <span>PESO <small>/ ASCR PROJECT</small></span>
+    </div>
+    <div class="navlinks">
+      <a href="#thrusts">Thrusts</a>
+      <a href="#news">News</a>
+      <a href="#connect">Connect</a>
+    </div>
+    <a class="nav-cta" href="#connect">$ get-involved</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">DOE · Office of Science · ASCR</div>
+    <h1 class="display">Stewarding the scientific<br>software stack<span class="cursor"></span></h1>
+    <p class="lede">PESO partners with DOE labs, universities, vendors, and the open-source community to keep scientific computing software correct, current, and built on solid ground — from hardware up.</p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="#connect">Connect with PESO →</a>
+      <a class="btn-ghost" href="#thrusts">View the six thrusts</a>
+    </div>
+
+    <div class="stack">
+      <div class="stack-row">
+        <div class="stack-label">Applications</div>
+        <div class="stack-content">
+          <span class="chip">DOE mission science codes</span>
+          <span class="chip">National lab workloads</span>
+        </div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-label">Libraries & Tools</div>
+        <div class="stack-content">
+          <span class="chip">CASS community</span>
+          <span class="chip">HPC math libraries</span>
+          <span class="chip">Dev &amp; QA tooling</span>
+        </div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-label">Delivery Layer</div>
+        <div class="stack-content">
+          <span class="chip hi">E4S</span>
+          <span class="chip hi">Spack</span>
+        </div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-label">Hardware Platforms</div>
+        <div class="stack-content">
+          <span class="chip em">CPU</span>
+          <span class="chip em">GPU</span>
+          <span class="chip em">Exascale systems</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="challenges">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-tag">The problem space</div>
+        <h2>Familiar failure modes</h2>
+      </div>
+      <p class="section-desc">Every team building on scientific software hits the same wall eventually. PESO exists to move that wall.</p>
+    </div>
+    <div class="terminal-cols">
+      <div class="term diagnose">
+        <div class="term-head">$ diagnose --common-issues</div>
+        <ul>
+          <li>Installing 3rd-party libs breaks on dependency mismatches</li>
+          <li>Version updates introduce breaking changes downstream</li>
+          <li>New tools disrupt existing team workflows</li>
+          <li>Portability across CPU/GPU is manually managed</li>
+          <li>Build times balloon as projects grow</li>
+          <li>Algorithms fall out of date, hurting perf and security</li>
+        </ul>
+      </div>
+      <div class="term resolve">
+        <div class="term-head resolve">$ resolve --with-peso</div>
+        <ul>
+          <li>Curated, tested library portfolio via Spack + E4S</li>
+          <li>Coordinated release and compatibility testing</li>
+          <li>User- and developer-experience research baked in</li>
+          <li>Community engagement as a first-order priority</li>
+          <li>Direct line to CASS community expertise</li>
+          <li>Shared investment across DOE, vendors, and academia</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="thrusts">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-tag">Program structure</div>
+        <h2>Six thrusts, one ecosystem</h2>
+      </div>
+      <p class="section-desc">Parallel work areas, each shipping into the same shared stack.</p>
+    </div>
+    <div class="thrust-pipeline">
+      <div class="thrust"><div class="thrust-code">SW-INT</div><div class="thrust-body"><h3>Software Ecosystem Integration</h3><p>Bringing independently developed tools together into one coherent, tested portfolio.</p></div></div>
+      <div class="thrust"><div class="thrust-code">UDX</div><div class="thrust-body"><h3>User-Developer Experience</h3><p>Improving how people install, adopt, and build on scientific software.</p></div></div>
+      <div class="thrust"><div class="thrust-code">COMM</div><div class="thrust-body"><h3>Community Engagement</h3><p>Growing an inclusive workforce with sustainable career paths in scientific software.</p></div></div>
+      <div class="thrust"><div class="thrust-code">IMPACT</div><div class="thrust-body"><h3>Impact Frameworks</h3><p>Measuring and communicating the value DOE's software investments actually deliver.</p></div></div>
+      <div class="thrust"><div class="thrust-code">E4S</div><div class="thrust-body"><h3>Extreme-scale Scientific Software Stack</h3><p>A curated, tested software stack ready to run on DOE systems.</p></div></div>
+      <div class="thrust"><div class="thrust-code">SPACK</div><div class="thrust-body"><h3>Spack</h3><p>The package manager that builds and delivers the whole ecosystem.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="news">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-tag">Changelog</div>
+        <h2>Latest news</h2>
+      </div>
+    </div>
+    <div class="log">
+      <div class="log-row"><span class="log-date mono">2026-07-21</span><a href="#">DOE Computer Science PI Meeting 2026</a></div>
+      <div class="log-row"><span class="log-date mono">2026-02-10</span><a href="#">2026 CASS Community BOF Days</a></div>
+      <div class="log-row"><span class="log-date mono">2026-01-13</span><a href="#">PESO 2025 Annual Report</a></div>
+      <div class="log-row"><span class="log-date mono">2025-12-10</span><a href="#">New E4S Website launched</a></div>
+      <div class="log-row"><span class="log-date mono">2025-11-16</span><a href="#">PESO at SC25</a></div>
+      <div class="log-row"><span class="log-date mono">2025-11-17</span><a href="#">E4S Version 25.11 release</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="connect" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-tag">Get involved</div>
+        <h2>Connect with PESO</h2>
+      </div>
+    </div>
+    <div class="connect-grid">
+      <a class="connect-card" href="#"><span class="mono">FORM</span><h4>Tell us about yourself</h4><p>Share your interests in scientific software stewardship.</p></a>
+      <a class="connect-card" href="#"><span class="mono">SUBSCRIBE</span><h4>Join the mailing list</h4><p>Hear about events and news from the PESO Project.</p></a>
+      <a class="connect-card" href="mailto:help@pesoproject.org"><span class="mono">EMAIL</span><h4>help@pesoproject.org</h4><p>Start a conversation with PESO leadership.</p></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; align-items:center; width:100%; flex-wrap:wrap; gap:16px;">
+    <span class="mono">© 2026 The PESO Project</span>
+    <img src="https://pesoproject.org/images/doe-logo.png" alt="DOE">
+  </div>
+</footer>
+
+</body>
+</html>

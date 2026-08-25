@@ -1,0 +1,15 @@
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <img src="/images/peso-logo-no-bg.png" alt="PESO">
+      <span>PESO</span>
+    </a>
+    <div class="navlinks">
+      <a href="/about"{% if page.url == '/about' or page.url == '/about/team' %} class="active"{% endif %}>About</a>
+      <a href="/thrusts"{% if page.url == '/thrusts' %} class="active"{% endif %}>Thrusts</a>
+      <a href="/engage"{% if page.url == '/engage' %} class="active"{% endif %}>Engage</a>
+      <a href="/news"{% if page.url == '/news' %} class="active"{% endif %}>News</a>
+    </div>
+    <a class="nav-cta" href="/connect">Get involved</a>
+  </div>
+</nav>

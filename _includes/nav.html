@@ -4,12 +4,77 @@
       <img src="/images/peso-logo-no-bg.png" alt="PESO">
       <span>PESO</span>
     </a>
-    <div class="navlinks">
-      <a href="/about"{% if page.url == '/about' or page.url == '/about/team' %} class="active"{% endif %}>About</a>
-      <a href="/thrusts"{% if page.url == '/thrusts' %} class="active"{% endif %}>Thrusts</a>
-      <a href="/engage"{% if page.url == '/engage' %} class="active"{% endif %}>Engage</a>
-      <a href="/news"{% if page.url == '/news' %} class="active"{% endif %}>News</a>
+
+    <div class="navlinks" id="navlinks">
+      <div class="navitem has-sub">
+        <a class="navlink{% if page.url contains '/about' %} active{% endif %}" href="/about">About</a>
+        <button class="sub-toggle" aria-expanded="false" aria-label="Show About submenu">
+          <svg width="10" height="10" viewBox="0 0 10 10"><path d="M1.5 3.5L5 7l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="submenu">
+          <a href="/about/team">Team</a>
+        </div>
+      </div>
+
+      <a class="navlink{% if page.url == '/thrusts' %} active{% endif %}" href="/thrusts">Thrusts</a>
+
+      <div class="navitem has-sub">
+        <a class="navlink{% if page.url contains '/engage' %} active{% endif %}" href="/engage">Engage</a>
+        <button class="sub-toggle" aria-expanded="false" aria-label="Show Engage submenu">
+          <svg width="10" height="10" viewBox="0 0 10 10"><path d="M1.5 3.5L5 7l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="submenu">
+          <a href="/engage/spack">Spack</a>
+          <a href="/engage/e4s">E4S</a>
+          <a href="/engage/hpsf">HPSF</a>
+        </div>
+      </div>
+
+      <a class="navlink{% if page.url == '/news' %} active{% endif %}" href="/news">News</a>
     </div>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navlinks" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
     <a class="nav-cta" href="/connect">Get involved</a>
   </div>
 </nav>
+
+<script>
+(function(){
+  var toggle = document.getElementById('navToggle');
+  var navlinks = document.getElementById('navlinks');
+
+  toggle.addEventListener('click', function(){
+    var open = navlinks.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+
+  document.querySelectorAll('.sub-toggle').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      var item = btn.closest('.navitem');
+      var isOpen = item.classList.contains('open');
+      document.querySelectorAll('.navitem.open').forEach(function(other){
+        if (other !== item) { other.classList.remove('open'); other.querySelector('.sub-toggle').setAttribute('aria-expanded', 'false'); }
+      });
+      item.classList.toggle('open', !isOpen);
+      btn.setAttribute('aria-expanded', !isOpen);
+    });
+  });
+
+  document.addEventListener('click', function(e){
+    if (!e.target.closest('.navitem')) {
+      document.querySelectorAll('.navitem.open').forEach(function(item){
+        item.classList.remove('open');
+        item.querySelector('.sub-toggle').setAttribute('aria-expanded', 'false');
+      });
+    }
+    if (!e.target.closest('#navlinks') && !e.target.closest('#navToggle')) {
+      navlinks.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+})();
+</script>

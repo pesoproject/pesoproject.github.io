@@ -12,7 +12,7 @@ Through collaborations, PESO provides:
 
 - **Software stacks and infrastructure** — testing, hardening, integration, distribution, and intermediate user support for a product, whether as its final destination, an early-access staging environment for pre-release versions, or both:
   - **Spack** — assistance creating and expanding [Spack](https://spack.io) capabilities for product build, testing, integration, and distribution.
-  - **E4S** — support for product integration and distribution in the Extreme-scale Scientific Software Stack ([E4S](https://e4s.io)), depending on a team's distribution strategy.
+  - **E4S** — support for product integration and distribution in the Ecosystem for Science ([E4S](https://e4s.io)), depending on a team's distribution strategy.
   - **CI** — continuous integration testing on a variety of commodity and emerging target vendor hardware/software stacks.
   - **Software quality improvement** — assistance improving product compatibility with E4S community policies.
 - **Stakeholder engagement** — opportunities for software teams and communities to engage with DOE, vendors, application communities, and cross-lab management.

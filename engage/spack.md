@@ -15,4 +15,4 @@ description: Spack - What and Why
 - **Reproducibility:** Reproducible builds, consistent setups across users & systems.
 - **Integration with CI/CD:** Integrates with CI/CD, enabling automated testing/deployment
 - **Community-Driven:** Maintained and extended by a large and active community
-- **E4S Integration:** Spack helps manage and deploy the Extreme-scale Scientific Software Stack (E4S), a curated collection of scientific libraries and tools, making it easier to get started with and maintain a robust HPC software environment.
+- **E4S Integration:** Spack helps manage and deploy the Ecosystem for Science (E4S), a curated collection of scientific libraries and tools, making it easier to get started with and maintain a robust HPC software environment.

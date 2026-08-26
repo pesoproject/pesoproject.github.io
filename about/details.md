@@ -27,7 +27,7 @@ PESO welcomes engagement at several levels:
 And with stakeholders and partners directly:
 
 - **Application teams**, coordinating delivery via E4S, containers, cloud, and facilities environments.
-- **DOE computing facilities**, providing and supporting a full stack of DOE-sponsored libraries and tools via E4S, in collaboration with commercial E4S partners.
+- **DOE computing facilities**, providing and supporting a full ecosystem of DOE-sponsored libraries and tools via E4S, in collaboration with commercial E4S partners.
 - **Computer system vendors**, ensuring DOE-sponsored libraries and tools are available as part of or complementary to vendor software.
 - **Commercial software providers**, co-developing and supporting DOE-sponsored software for industry, US agencies, and international partners.
 - **US agencies**, making DOE-sponsored software available to their users while assuring compatibility with their own software environments.

@@ -8,7 +8,7 @@ description: HPSF - What and Why
 Launched in May 2024, the [High Performance Software Foundation (HPSF)](https://hpsf.io) is a neutral hub for open-source software for high-performance computing.
 
 - **Purpose:** HPSF supports the use and sustainment of applications, libraries, and tools in a portable, performant scientific software stack.
-- **Mechanisms:** HPSF promotes and incentivizes improved software quality, availability, and use through collaboration, project mentoring, active working groups, and events — including its first HPSFCon conference in May 2025 and a second planned for March 2026.
+- **Mechanisms:** HPSF promotes and incentivizes improved software quality, availability, and use through collaboration, project mentoring, active working groups, and events — including HPSFCon conferences held in 2025 and 2026, with a 2027 conference scheduled. More information is available at [hpsf.io](https://hpsf.io).
 - **A founding home for Spack:** Spack is a founding project of HPSF, which provides ongoing CI capacity and community engagement for the project.
 
 **PESO's role in HPSF.** PESO efforts and resources have been integral to HPSF's growth and execution:

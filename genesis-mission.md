@@ -9,7 +9,7 @@ permalink: /genesis-mission
 <div class="thrust-grid" style="margin-top:8px;">
   <div class="thrust">
     <span class="thrust-code">01</span>
-    <h3>Stand up a mission-ready software stack</h3>
+    <h3>Stand up a mission-ready software ecosystem</h3>
     <p>Turn a project's libraries, tools, and dependencies into a coherent, version-compatible environment using E4S and Spack — ready for repeatable science from day one.</p>
     <div class="outcome-label">Outcome</div>
     <div class="outcome-text">A documented, reproducible starting point</div>

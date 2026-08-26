@@ -32,7 +32,7 @@
 
 - code: E4S
   title: Ecosystem for Science
-  summary: A curated, tested software stack ready to run on DOE systems.
+  summary: A curated, tested software ecosystem ready to run on DOE systems.
   description: >
     The Ecosystem for Science (E4S) provides a curated collection of HPC
     software, ensuring easy access and deployment across different computing environments,

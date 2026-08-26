@@ -31,10 +31,10 @@
     practical applications.
 
 - code: E4S
-  title: Extreme-scale Scientific Software Stack
+  title: Ecosystem for Science
   summary: A curated, tested software stack ready to run on DOE systems.
   description: >
-    The Extreme-scale Scientific Software Stack (E4S) provides a curated collection of HPC
+    The Ecosystem for Science (E4S) provides a curated collection of HPC
     software, ensuring easy access and deployment across different computing environments,
     with a focus on scalability and reproducibility.
   link: /engage/e4s

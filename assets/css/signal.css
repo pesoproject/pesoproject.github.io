@@ -101,7 +101,9 @@ h1.display{
   max-width:780px; color:#fff;
 }
 h1.display .accent{color:var(--amber);}
-.hero p.lede{max-width:580px; margin-top:24px; font-size:17.5px; color:#C7D3E6; line-height:1.6;}
+.hero p.lede{max-width:640px; margin-top:24px; font-size:17.5px; color:#C7D3E6; line-height:1.6;}
+.hero p.lede a{color:var(--amber); font-weight:600; text-decoration:underline; text-underline-offset:2px; text-decoration-color:rgba(242,153,74,0.45);}
+.hero p.lede a:hover{color:#fff; text-decoration-color:#fff;}
 .hero-ctas{display:flex; gap:16px; margin-top:34px; flex-wrap:wrap;}
 .btn-primary{
   background:#fff; color:var(--navy); font-weight:700; font-size:15px;

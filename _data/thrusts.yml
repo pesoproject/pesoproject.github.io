@@ -4,7 +4,9 @@
   description: >
     Focuses on integrating diverse software components into a cohesive ecosystem that supports
     advanced scientific computing, ensuring compatibility and optimized performance across
-    various platforms.
+    various platforms. This work is carried out through the CASS <a href="https://cass.community/working-groups/software-ecosystem.html">Software Ecosystem</a>
+    and <a href="https://cass.community/working-groups/integration.html">Integration</a> working groups, alongside HPSF's integration working
+    group and the shared Frank cluster at the University of Oregon, used for porting and CI testing.
 
 - code: UDX
   title: User-Developer Experience
@@ -12,7 +14,7 @@
   description: >
     Aims to enhance the interaction between users and developers, improving the usability and
     efficiency of software tools while fostering a collaborative environment for ongoing
-    development.
+    development. This work is carried out through the CASS <a href="https://cass.community/working-groups/user-developer-experience.html">User-Developer Experience</a> working group.
 
 - code: COMM
   title: Community Engagement
@@ -20,7 +22,7 @@
   description: >
     Strengthens the involvement of the scientific community by fostering collaborations,
     disseminating best practices, and supporting open-source contributions to ensure the
-    sustainability and evolution of the software ecosystem.
+    sustainability and evolution of the software ecosystem. This work is carried out through the CASS <a href="https://cass.community/working-groups/workforce.html">Workforce</a> working group.
 
 - code: IMPACT
   title: Impact Frameworks
@@ -28,22 +30,20 @@
   description: >
     Develops methodologies and tools to measure and maximize the impact of software on
     scientific research, ensuring that contributions lead to significant advancements and
-    practical applications.
+    practical applications. This work is carried out through the CASS <a href="https://cass.community/working-groups/impact-framework.html">Impact Framework</a> working group.
 
 - code: E4S
   title: Ecosystem for Science
   summary: A curated, tested software ecosystem ready to run on DOE systems.
   description: >
-    The Ecosystem for Science (E4S) provides a curated collection of HPC
-    software, ensuring easy access and deployment across different computing environments,
-    with a focus on scalability and reproducibility.
+    A curated, tested software ecosystem ready to run on DOE systems — see e4s.io for the
+    full product catalog and documentation.
   link: /engage/e4s
 
 - code: SPACK
   title: Spack
   summary: The package manager that builds and delivers the whole ecosystem.
   description: >
-    A package manager designed to support the building and deployment of scientific software
-    across diverse platforms, Spack is critical for managing complex dependencies and ensuring
-    the portability and consistency of software installations across HPC environments.
+    The package manager that builds and delivers the whole ecosystem — see spack.io for
+    documentation and tutorials.
   link: /engage/spack

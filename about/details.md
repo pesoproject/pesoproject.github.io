@@ -1,50 +1,33 @@
 ---
 title: PESO Project Details
-description: How PESO operates, its guiding principles, and its key activities.
+description: How PESO is organized and funded, how it works with CASS, and where it's headed next.
 section_tag: About PESO
 layout: page
 permalink: /about/details
 ---
 
-## How we work
+PESO is a five-year software-ecosystem stewardship and advancement project, advancing the DOE Office of Advanced Scientific Computing Research (ASCR) scientific software ecosystem by coordinating stewardship, integration, and quality-focused activities across a diverse portfolio of DOE-funded software projects.
 
-Through collaborations, PESO provides:
+## How PESO is organized and funded
 
-- **Software stacks and infrastructure** — testing, hardening, integration, distribution, and intermediate user support for a product, whether as its final destination, an early-access staging environment for pre-release versions, or both:
-  - **Spack** — assistance creating and expanding [Spack](https://spack.io) capabilities for product build, testing, integration, and distribution.
-  - **E4S** — support for product integration and distribution in the Ecosystem for Science ([E4S](https://e4s.io)), depending on a team's distribution strategy.
-  - **CI** — continuous integration testing on a variety of commodity and emerging target vendor hardware/software stacks.
-  - **Software quality improvement** — assistance improving product compatibility with E4S community policies.
-- **Stakeholder engagement** — opportunities for software teams and communities to engage with DOE, vendors, application communities, and cross-lab management.
-- **An annual all-teams workshop** — bringing together product teams, stakeholders, and other key parties for planning and coordination.
+PESO's annual budget is $4M, supporting about 40 staff members at 8 DOE labs, four industry partners, and one university. By design, many PESO team members also receive funding from partner software stewardship organizations (SSOs), enabling close coordination and reducing duplication of effort across the CASS portfolio. Roughly 75 percent of PESO's budget funds cross-SSO collaboration:
 
-PESO welcomes engagement at several levels:
+- **Technical collaborations** (~54%) — strengthening interoperability, testing, and infrastructure among SSOs, organized into PESO's [six thrusts](/thrusts).
+- **Spack and E4S** (~25%) — direct support for the two cornerstone PESO products that deliver and curate the DOE Office of Science's software portfolio.
+- **Community and outreach collaborations** (~21%) — promoting visibility and broad adoption of DOE scientific libraries and tools, and workforce development.
 
-- **Individual product teams** whose products would benefit DOE application users and facilities — ideally also participating in a compatible product community, typically a DOE-sponsored software stewardship organization (SSO).
-- **Software product communities ("spokes")** — new and established communities that define their own quality-driving policies, ideally compatible with E4S community policies where products distribute through E4S.
-- **Communities of practice** organized around cross-cutting concerns — research software engineering training (e.g., [IDEAS](https://ideas-productivity.org)), community outreach (e.g., [CSCCE](https://cscce.org) strategies), software foundations (e.g., [NumFOCUS](https://numfocus.org), [Linux Foundation](https://www.linuxfoundation.org)), and workforce development (e.g., [US RSE](https://us-rse.org), [BSSw Fellows](https://bssw.io/fellowship), [Sustainable Research Pathways](https://bssw.io/events/sustainable-research-pathways-srp)).
+## How we work with CASS
 
-And with stakeholders and partners directly:
+Through collaborations within the [Consortium for the Advancement of Scientific Software (CASS)](/engage/cass), PESO provides shared infrastructure, coordination, and stewardship practices that improve interoperability, quality, and adoption across a diverse software portfolio spanning applied math (FASTMath), AI/data/visualization (RAPIDS), programming models and runtimes (S4PST), and tools for performance and correctness (STEP). These activities are designed to complement — not replace — product-level stewardship by individual teams and SSOs.
 
-- **Application teams**, coordinating delivery via E4S, containers, cloud, and facilities environments.
-- **DOE computing facilities**, providing and supporting a full ecosystem of DOE-sponsored libraries and tools via E4S, in collaboration with commercial E4S partners.
-- **Computer system vendors**, ensuring DOE-sponsored libraries and tools are available as part of or complementary to vendor software.
-- **Commercial software providers**, co-developing and supporting DOE-sponsored software for industry, US agencies, and international partners.
-- **US agencies**, making DOE-sponsored software available to their users while assuring compatibility with their own software environments.
+PESO leads or significantly staffs several CASS working groups, including Software Ecosystem, Integration, Impact Framework, Software Quality Assurance, and User-Developer Experience — the same five thrusts detailed on the [Thrusts](/thrusts) page. A CASS-wide Impact Framework, developed and led by PESO, gives the consortium a common, transparent way to track software stewardship activities and progress across the whole portfolio.
 
-## Principles
+## Looking forward: AI and the Genesis Mission
 
-- **Transparency** — open governance policies and open access to Consortium artifacts.
-- **Diversity** — cultivation of diverse participation and representation.
-- **Sustainability** — long-term viability and growth of software, practices, and workforce.
-- **Innovation** — responsiveness to stakeholder needs and technological evolution.
-- **Cooperation** — working together to support the overall Consortium mission.
-- **Integrity** — acting as a fair, trusted, and respected asset to the community.
+PESO is positioning the scientific software ecosystem to support AI-for-Science workflows, including emerging world-model approaches that combine data-driven methods with equation-based simulation components. Rather than treating AI as a standalone activity, PESO integrates AI considerations into ecosystem stewardship — emphasizing reproducibility, software quality, usability, and interoperability as AI becomes a central element of scientific discovery. This work aligns directly with DOE's Genesis Mission, which calls for rapid increases in scientific productivity through the convergence of simulation, data, and AI. See [how PESO can help Genesis Mission teams](/genesis-mission).
 
-## Key activities
+## Community and outreach
 
-- **Partnerships** — leading efforts to foster a diverse and inclusive workforce with sustainable career paths; shepherding the Better Scientific Software Fellows Program and contributing to the leadership of the [BSSw.io](https://bssw.io) web portal.
-- **Services** — software product management, integration, and delivery, plus software quality assurance and security.
-- **Products** — delivery and support via Spack and E4S, including porting and testing platforms shared across product teams to ensure code stability and portability, and facilitating delivery of other products such as AI/ML libraries as needed by the HPC community.
+PESO supports leadership for the CASS Steering Committee and multiple working groups, and staffs a range of cross-SSO initiatives that cultivate the scientific software workforce and public visibility — including the [Better Scientific Software (BSSw) program](/engage/bssw) and the [High Performance Software Foundation (HPSF)](/engage/hpsf). See the [CASS](/engage/cass) page for PESO's specific leadership roles across the consortium.
 
 Want to be part of this? See how to [connect with PESO](/connect) or meet the [team](/about/team).

@@ -1,3 +1,8 @@
+{% capture issue_title %}Feedback on: {{ page.title | default: site.title }}{% endcapture %}
+{% capture issue_body %}Page: {{ site.url | default: "https://pesoproject.org" }}{{ page.url }}
+
+<!-- Describe what you'd like to see changed or fixed on this page. -->
+{% endcapture %}
 <div class="wrap">
     <div class="footer-links">
         <a href="/about">About</a>
@@ -11,6 +16,7 @@
         <a href="/news/events">Events</a>
         <a href="/news/documents">Documents</a>
         <a href="/connect">Connect</a>
+        <a href="https://github.com/pesoproject/pesoproject.github.io/issues/new?title={{ issue_title | url_encode }}&amp;body={{ issue_body | url_encode }}" target="_blank" rel="noopener">Report an issue with this page</a>
     </div>
     <span class="mono">© {{ site.time | date: '%Y' }} The PESO Project</span>
     <a href="https://science.osti.gov/ascr" target="_blank" rel="noopener">

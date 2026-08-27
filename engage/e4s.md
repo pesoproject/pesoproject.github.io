@@ -13,4 +13,4 @@ description: E4S - What and Why
 
 **PESO's role in E4S.** E4S curation is coordinated directly with CASS governance and working groups — Integration, Software Quality Assurance, Impact Framework, Metrics, and User-Developer Experience — with PESO personnel participating so that packaging decisions stay aligned with the ecosystem's broader goals. **Sameer Shende** (University of Oregon) leads E4S under PESO.
 
-Download E4S releases at [e4s.io/downloads](https://e4s.io/downloads).
+Get information on how to use E4S at [e4s-project.github.io/use/](https://e4s-project.github.io/use/).

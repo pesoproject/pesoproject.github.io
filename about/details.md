@@ -1,5 +1,6 @@
 ---
 title: PESO Project Details
+title_html: <span class="accent">PESO</span> Project Details
 description: How PESO is organized and funded, how it works with CASS, and where it's headed next.
 section_tag: About PESO
 layout: page

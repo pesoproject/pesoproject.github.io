@@ -1,6 +1,7 @@
 ---
 layout: page
 title: PESO Project Thrusts
+title_html: <span class="accent">PESO</span> Project Thrusts
 description: Six parallel work areas, each shipping into the same shared scientific software ecosystem.
 section_tag: Program structure
 permalink: /thrusts

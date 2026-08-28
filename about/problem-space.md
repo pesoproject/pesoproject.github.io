@@ -1,5 +1,6 @@
 ---
-title: The Problem Space
+title: The Problem PESO Solves
+title_html: The Problem <span class="accent">PESO</span> Solves
 description: The failure modes PESO exists to fix, and how the ecosystem approach resolves them.
 section_tag: About PESO
 layout: page
@@ -12,23 +13,23 @@ Every team building on scientific software hits the same wall eventually. PESO e
   <div class="compare-col friction">
     <h3>Without a shared ecosystem</h3>
     <ul>
-      <li>Installing 3rd-party libs breaks on dependency mismatches</li>
+      <li>Installing third-party libraries breaks on dependency mismatches</li>
       <li>Version updates introduce breaking changes downstream</li>
+      <li>Portability across CPUs, GPUs, and new architectures is manually managed</li>
+      <li>Build times balloon as projects and dependencies grow</li>
       <li>New tools disrupt existing team workflows</li>
-      <li>Portability across CPU/GPU is manually managed</li>
-      <li>Build times balloon as projects grow</li>
-      <li>Algorithms fall out of date, hurting performance and security</li>
+      <li>Libraries fall out of date, hurting performance and security</li>
     </ul>
   </div>
   <div class="compare-col help">
     <h3>With PESO</h3>
     <ul>
-      <li>Curated, tested library portfolio via Spack + E4S</li>
-      <li>Coordinated release and compatibility testing</li>
-      <li>User- and developer-experience research baked in</li>
-      <li>Community engagement as a first-order priority</li>
-      <li>Direct line to CASS community expertise</li>
-      <li>Shared investment across DOE, vendors, and academia</li>
+      <li>A curated, tested library portfolio via Spack + E4S</li>
+      <li>Coordinated release and compatibility testing across the ecosystem</li>
+      <li>Ecosystem-wide CI testing across CPUs, GPUs, and emerging architectures</li>
+      <li>Shared Spack build caches cut compile times across teams</li>
+      <li>User- and developer-experience research built into every release</li>
+      <li>Ongoing software quality assurance and supply-chain security</li>
     </ul>
   </div>
 </div>

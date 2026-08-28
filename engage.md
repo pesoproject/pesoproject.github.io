@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Engage with PESO
+title_html: Engage with <span class="accent">PESO</span>
 description: How investing in scientific software as an ecosystem pays off for your organization.
 section_tag: Get involved
 permalink: /engage

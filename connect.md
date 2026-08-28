@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Connect with PESO
+title_html: Connect with <span class="accent">PESO</span>
 description: How to get involved, contribute, and reach the PESO leadership team.
 section_tag: Get involved
 permalink: /connect

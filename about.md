@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About PESO
+title_html: About <span class="accent">PESO</span>
 description: Mission, vision, and background of the PESO Project.
 section_tag: About PESO
 permalink: /about

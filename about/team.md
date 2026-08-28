@@ -1,5 +1,6 @@
 ---
 title: PESO Team
+title_html: <span class="accent">PESO</span> Team
 description: PESO leadership and team members across DOE labs, universities, and partner organizations.
 section_tag: About PESO
 layout: page

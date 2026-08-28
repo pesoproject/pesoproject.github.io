@@ -1,6 +1,6 @@
 ---
-title: The Problem PESO Solves
-title_html: The Problem <span class="accent">PESO</span> Solves
+title: The Problem PESO Addresses
+title_html: The Problem <span class="accent">PESO</span> Addresses
 description: The failure modes PESO exists to fix, and how the ecosystem approach resolves them.
 section_tag: About PESO
 layout: page

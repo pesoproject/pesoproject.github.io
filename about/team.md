@@ -34,7 +34,7 @@ permalink: /about/team
 | Bill Hoffman | Kitware, Inc. | |
 | Ryan Krattiger | Kitware, Inc. | |
 | Adam Lavely | Lawrence Berkeley National Laboratory | |
-| Damien Lebrun-Grandie | Oak Ridge National Laboratory | |
+| Damien Lebrun-Grandie | Los Alamos National Laboratory | |
 | Mary Ann Leung | Sustainable Horizons Institute | |
 | Xiaoye Sherry Li | Lawrence Berkeley National Laboratory | |
 | Daniel Martin | Lawrence Berkeley National Laboratory | |

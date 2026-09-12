@@ -7,15 +7,17 @@ section_tag: Impact
 permalink: /highlights
 ---
 
-Each highlight below started as a single slide with speaker notes prepared for a talk or poster session. The caption is a short summary in plain language; click a slide to see it full size.
+Each highlight below started as a single slide with speaker notes prepared for a talk or poster session. The caption is a short summary in plain language; click a slide to see it full size. Highlights are listed in reverse chronological order, most recent first.
 
 <div class="highlight-grid" style="margin-top:8px;">
-{% for h in site.data.highlights %}
-<button type="button" class="highlight-card" data-title="{{ h.title | escape }}" data-caption="{{ h.caption | escape }}" data-pdf="{{ h.pdf }}">
+{% assign sorted_highlights = site.data.highlights | sort: "date" | reverse %}
+{% for h in sorted_highlights %}
+{% if h.date %}{% assign date_str = h.date | date: "%B %-d, %Y" %}{% else %}{% assign date_str = "" %}{% endif %}
+<button type="button" class="highlight-card" data-title="{{ h.title | escape }}" data-caption="{% if date_str != "" %}{{ date_str }} — {% endif %}{{ h.caption | escape }}" data-pdf="{{ h.pdf }}">
   <div class="highlight-thumb"><img src="{{ h.thumbnail }}" alt="Slide: {{ h.title | escape }}" loading="lazy"></div>
   <div class="highlight-body">
     <h3>{{ h.title }}</h3>
-    <p>{{ h.caption }}</p>
+    <p>{% if date_str != "" %}<span class="highlight-date">{{ date_str }}</span> — {% endif %}{{ h.caption }}</p>
   </div>
 </button>
 {% endfor %}

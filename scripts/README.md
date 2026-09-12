@@ -8,7 +8,12 @@ page.
 
 1. Drop the `.pptx` into `files/ProjectHighlightsSource/`. It should be a
    single slide whose speaker notes hold the talking points -- that's what
-   this pipeline expects (only slide 1 of each file is processed).
+   this pipeline expects (only slide 1 of each file is processed). The
+   filename must start with a date stamp, `YYYY-MM-DD-...` (e.g.
+   `2026-09-01-PESO-Something-Highlight.pptx`) -- that date is what orders
+   highlights on the page (most recent first) and is shown at the start of
+   each caption. A file without one still gets processed, but sorts last
+   and a build warning will point it out.
 2. Run:
    ```
    python3 scripts/build_highlights.py

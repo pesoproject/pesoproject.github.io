@@ -7,7 +7,7 @@ section_tag: Impact
 permalink: /highlights
 ---
 
-Each highlight below started as a single slide with speaker notes prepared for a talk or poster session. The caption is a short summary in plain language; click a slide to see it full size.
+Each highlight below started as a single slide with speaker notes prepared for a talk or poster session. The caption is a short summary in plain language; click a slide to see it full size. Highlights are listed in reverse chronological order, most recent first.
 
 <div class="highlight-grid" style="margin-top:8px;">
 {% assign sorted_highlights = site.data.highlights | sort: "date" | reverse %}

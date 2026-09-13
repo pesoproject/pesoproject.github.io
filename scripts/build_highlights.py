@@ -53,6 +53,7 @@ KNOWN_SLUGS = {
     "2026-08-05-PESO-Spack-Highlight.pptx": "spack",
     "2026-08-06-E4S Highlight - Dont Debug It Alone .pptx": "e4s",
     "2026-08-07-ASCR.Highlight.PESO.ZeroToLAMMPS.pptx": "zero-to-lammps",
+    "2026-08-04-ASCR.Highlight.PESO.SRP.pptx": "srp",
 }
 
 # Matches a YYYY-MM-DD or YYYY.MM.DD stamp at the start of a filename.

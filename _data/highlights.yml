@@ -212,6 +212,34 @@
     User Support Staff, HPC User/Analyst smallest slice.'
   thumbnail: /files/highlights/spack/thumbnail.png
   pdf: /files/highlights/spack/slide.pdf
+- slug: srp
+  source: 2026-08-04-ASCR.Highlight.PESO.SRP.pptx
+  date: '2026-08-04'
+  title: PESO Support Expands Pathways to DOE Labs through SRP
+  caption: Sustainable Research Pathways (SRP), led by the Sustainable Horizons Institute and supported
+    by PESO, matches DOE Lab researchers with faculty and students -- with a deliberate focus on non-R1
+    institutions -- who would likely not otherwise collaborate with the labs. For summer 2026, 9 DOE Lab
+    researchers across 4 labs were matched with 20 faculty and students. Since 2015, SRP has facilitated
+    matches between DOE mentors and more than 500 students and 170 faculty from 261 universities, many
+    of whom now work in DOE labs, academia, or industry. The program relies on a virtual matching workshop,
+    aided by machine learning, to pair researchers and students at scale.
+  notes_excerpt: "LOCAL LAB POC:  Lois Curfman McInnes (ANL curfman@anl.gov), Dan Martin (LBNL dfmartin@lbl.gov\
+    \ )\nTALKING POINTS:  \nDepartment of Energy National Laboratories are facing workforce challenges\
+    \ and need to develop more effective techniques to attract and sustain a full spectrum of talent.\n\
+    SRP expands the pathways to DOE Labs by introducing lab staff to faculty and students who likely would\
+    \ not otherwise collaborate with the labs\nLed by Sustainable Horizons Institute (Mary Ann Leung)\
+    \ and funded by the DOE PESO project, the Sustainable Research Pathways (SRP) program matched 9 DOE\
+    \ Lab researchers at 4 labs with 20 new faculty and students for summer 2026 collaborations\nMETADATA:\
+    \ \nName of the associated awarded project:  PESO\nPI name(s):  Lois Curfman McInnes\nName of the\
+    \ program manager:  David Rabson\nCITATIONS:\nIterative Co-Design, Co-Development and Co-Delivery:\
+    \ Accelerating American S&T Productivity through Public-Private Partnerships\n\nBACKGROUND:  \nThe\
+    \ SRP was established over 10 years ago at Berkeley Lab.  With ECP support SRP expanded to a multi-lab\
+    \ program that has placed over 300 faculty and students into internships at 10 DOE labs. As a result,\
+    \ a number of SRP participants are currently employed at DOE labs, have received joint research funding\
+    \ with DOE researchers, and have received prestigious awards such CSFG, SSGF, NSF GRF, and the Presidential\
+    \ Awards for Excellence in Science, Mathematics and Engineering Mentoring (PASEM)"
+  thumbnail: /files/highlights/srp/thumbnail.png
+  pdf: /files/highlights/srp/slide.pdf
 - slug: udx
   source: 2026-08-04-ASCR_Highlight_PESO-UDX.pptx
   date: '2026-08-04'
